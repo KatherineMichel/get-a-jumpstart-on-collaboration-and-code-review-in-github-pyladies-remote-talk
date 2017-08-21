@@ -1479,7 +1479,7 @@ Force delete local branch
 $ git branch -D  <branch-name>
 ```
 
-Delete a remote branch
+Delete remote branch
 
 ```bash
 $ git push <remote-name> :<branch-name>
@@ -1492,6 +1492,7 @@ $ git push <remote-name> :<branch-name>
 ### Add, Commit, Create a Message
 
 ```bash
+$ git checkout -b <branch-name>
 $ git add .
 $ git commit -m "Your note"
 ```
@@ -1500,10 +1501,6 @@ $ git commit -m "Your note"
 
 <hr>
 
-
-
-
-# Commands
 
 <!--
 ### Create and Switch to a Feature Branch, a.k.a. Topic Branch (note how the local files switch to the files of the branch you are checked out on)
@@ -1518,16 +1515,6 @@ If not checked out in the branch you are branching off of (need to specify which
 
 ```bash
 $ git checkout -b <branch-name> <branch-branching-off-of>
-```
-
-### Push Follow-On Commit to Forked Repo Pull Request via HTTP/HTTPS or SSH (contributor has to have given permission for maintainers to amend pull request, and local branch name has to match pull request branch name)
-
-```bash
-$ git checkout -b <branch-name> master
-$ git add .
-$ git commit -m "Your note"
-
-$ git push https://github.com:<user-name>/<repo-name> <hashtag-and-pull-request-number>:<branch-name>
 ```
 -->
 
