@@ -1445,8 +1445,22 @@ $ git checkout -b <branch-name> master
 $ git pull https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
+Push additional commits
+
+<!--
+(contributor needs to have given permission, and local branch name and remote branch name need to match)
+-->
+
 ```bash
 $ git push https://github.com/<user-name>/<repo-name> <branch-name>
+```
+
+<!--
+Push additional commits to forked repo feature branch or pull request branch, if local branch name is different than pull request branch name
+-->
+
+```bash
+$ git push https://github.com/<user-name>/<repo-name> <local-branch-name>:<remote-branch-name>
 ```
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
@@ -1492,7 +1506,7 @@ $ git push <remote-name> :<branch-name>
 ### Add, Commit, Create a Message
 
 ```bash
-$ git checkout -b <branch-name>
+$ git checkout <branch-name>
 $ git add .
 $ git commit -m "Your note"
 ```
@@ -1503,6 +1517,14 @@ $ git commit -m "Your note"
 
 
 <!--
+## Alternative Branch Commands
+
+If the branch already exists, just switch to a branch
+
+```bash
+$ git checkout <branch-name>
+```
+
 ### Create and Switch to a Feature Branch, a.k.a. Topic Branch (note how the local files switch to the files of the branch you are checked out on)
 
 If checked out in the branch you are branching off of (do not need to specify which branch branching off of)
@@ -1511,7 +1533,7 @@ If checked out in the branch you are branching off of (do not need to specify wh
 $ git checkout -b <branch-name>
 ```
 
-If not checked out in the branch you are branching off of (need to specify which branch branching off of)
+If not checked out in the branch you are branching off of (need to specify which branch branching off of) (remember, you are branching off the branch you intend your change to be merged into)
 
 ```bash
 $ git checkout -b <branch-name> <branch-branching-off-of>
