@@ -1428,6 +1428,8 @@ $ git checkout -b <branch-name> origin/<branch-name>
 $ git merge master
 ```
 
+Push Follow-On Commit to Shared Repo Pull Request
+
 ```bash
 $ git push origin <branch-name> 
 ```
@@ -1458,6 +1460,77 @@ $ git checkout master
 $ git merge --no-ff <branch-name>
 $ git push origin master
 ```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+### Delete a Branch
+
+Delete local branch
+
+```bash
+$ git branch -d  <branch-name>
+```
+
+Force delete local branch
+
+```bash
+$ git branch -D  <branch-name>
+```
+
+Delete a remote branch
+
+```bash
+$ git push <remote-name> :<branch-name>
+```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+### Add, Commit, Create a Message
+
+```bash
+$ git add .
+$ git commit -m "Your note"
+```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+
+
+
+# Commands
+
+<!--
+### Create and Switch to a Feature Branch, a.k.a. Topic Branch (note how the local files switch to the files of the branch you are checked out on)
+
+If checked out in the branch you are branching off of (do not need to specify which branch branching off of)
+
+```bash
+$ git checkout -b <branch-name>
+```
+
+If not checked out in the branch you are branching off of (need to specify which branch branching off of)
+
+```bash
+$ git checkout -b <branch-name> <branch-branching-off-of>
+```
+
+### Push Follow-On Commit to Forked Repo Pull Request via HTTP/HTTPS or SSH (contributor has to have given permission for maintainers to amend pull request, and local branch name has to match pull request branch name)
+
+```bash
+$ git checkout -b <branch-name> master
+$ git add .
+$ git commit -m "Your note"
+
+$ git push https://github.com:<user-name>/<repo-name> <hashtag-and-pull-request-number>:<branch-name>
+```
+-->
+
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
