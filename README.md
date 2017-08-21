@@ -44,7 +44,9 @@ Thank you!
 
 - [Get a Jumpstart on Collaboration and Code Review in GitHub](#get-a-jumpstart-on-collaboration-and-code-review-in-github)
 - [Welcome](#welcome)
+- [About Me](#about-me)
 - [Goal](#goal)
+- [Hands On Practice](#hands-on-practice)
 - [Announcing TacoFancy](#announcing-tacofancy)
 - [The One Sentence that Motivated Me to Start Using GitHub](#the-one-sentence-that-motivated-me-to-start-using-github)
 - [My First Pull Request](#my-first-pull-request)
@@ -62,6 +64,9 @@ Thank you!
 - [The Two Collaborative Development Models](#the-two-collaborative-development-models)
 - [The Two Types of Accounts](#the-two-types-of-accounts)
 - [Write Permission](#write-permission)
+- [Why We Need Write Permission](#why-we-need-write-permission)
+
+
 - [Write Permission and Collaboration Examples](#write-permission-and-collaboration-examples)
 - [How to Fork a Repo](#how-to-fork-a-repo)
 - [Forked Repo](#forked-repo)
