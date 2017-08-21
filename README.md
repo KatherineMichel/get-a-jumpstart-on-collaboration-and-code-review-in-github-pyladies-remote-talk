@@ -65,8 +65,6 @@ Thank you!
 - [The Two Types of Accounts](#the-two-types-of-accounts)
 - [Write Permission](#write-permission)
 - [Why We Need Write Permission](#why-we-need-write-permission)
-
-
 - [Write Permission and Collaboration Examples](#write-permission-and-collaboration-examples)
 - [How to Fork a Repo](#how-to-fork-a-repo)
 - [Forked Repo](#forked-repo)
