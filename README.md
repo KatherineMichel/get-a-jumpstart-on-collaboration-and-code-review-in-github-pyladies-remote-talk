@@ -1300,8 +1300,9 @@ https://git.io/v5fRh
 
 ### Links
 
-GitHub
+GitHub and Bitbucket
 * [GitHub](https://github.com)
+* [Bitbucket](https://bitbucket.org)
 
 Getting Set Up
 * [Set Up Git](https://help.github.com/articles/set-up-git)
@@ -1336,20 +1337,38 @@ GitHub Open Source Guides
 * [Open Source Guides](https://opensource.guide)
 * [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
 
+Writing and Formatting
+* [Getting Started with Writing and Formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github)
+* [Working with Advanced Formatting](https://help.github.com/articles/working-with-advanced-formatting)
+
+Setting Up and Maintaining Teams
+* [Setting Up Teams](https://help.github.com/articles/setting-up-teams)
+* [Maintaining Teams](https://help.github.com/articles/maintaining-teams)
+
 Collaborative Development Models and Permission Levels
 * [About Collaborative Development Models](https://help.github.com/articles/about-collaborative-development-models)
 * [Types of Collaborative Development Models](https://help.github.com/enterprise/2.7/user/articles/types-of-collaborative-development-models)
 * [Permission Levels for an Organization](https://help.github.com/articles/permission-levels-for-an-organization)
 * [Repository Permission Levels for an Organization](https://help.github.com/articles/repository-permission-levels-for-an-organization)
+* [Permission Levels for a User Account Repository](https://help.github.com/articles/permission-levels-for-a-user-account-repository)
+
+Pull Request Branches Created from a Fork
+* [Allowing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork)
+* [Committing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork)
+
+Advanced Collaborative Development Workflow Examples
+* Git Flow
+* [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model) (more advanced)
+* [A Successful Git Branching Model Considered Harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful)
+* [SemVer](http://semver.org) (subtopic)
+
+* [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
 
 Documentation
 * [DjangoCon US Website README.md](https://github.com/djangocon/2017.djangocon.us/blob/master/README.md)
 * [DjangoCon US Website LICENSE](https://github.com/djangocon/2017.djangocon.us/blob/master/LICENSE)
 * [DjangoCon US Website CODE_OF_CONDUCT.md](https://github.com/djangocon/2017.djangocon.us/blob/master/CODE_OF_CONDUCT.md)
 * [DjangoCon US Website CONTRIBUTING.md](https://github.com/djangocon/2017.djangocon.us/blob/master/CONTRIBUTING.md)
-
-Recovering a Deleted Branch
-* [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
