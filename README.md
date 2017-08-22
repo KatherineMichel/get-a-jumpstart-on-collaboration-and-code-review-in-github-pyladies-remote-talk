@@ -98,6 +98,13 @@ Thank you!
 - [Thank You](#thank-you)
 
 <!--
+* [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
+
+* [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
+
+http://opensourcesurvey.org/2017/#insights
+http://opensourcesurvey.org/2017/
+
 <tr><td width="30%">
 
 ![Slide 00]()
@@ -110,11 +117,37 @@ Example: DjangoCon US website is a deployed live and has a fairly high volume of
 
 </td></tr>
 
+
 <tr><td width="30%">
 
 ![Slide 00]()
 
 </td><td>
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Shared Repository Model: User Account Versus Organization
+
+A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
+
+* Organizational account owners can create teams and permissions across multiple repos
+* Otherwise, the repo shared repository" settings are almost exactly the same
+
+</td></tr>
+
+
+## Tidy Up
+
+When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
+
+* Close pull request
+* Revert pull request (hopefully not needed)
+* Delete local and remote (in browser) feature branch
+
 
 ### Adding an Upstream Remote
 ### Syncing a Fork
@@ -155,6 +188,56 @@ upstream  https://github.com/upstream-username/original-repository (push)
 
 </td></tr>
 
+## Adding an Upstream Remote and Syncing a Fork
+
+<!--
+If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
+
+You can name the additional remote something else, but upstream is the common convention.
+-->
+
+Add upstream remote repository that will be synced with the fork
+
+```bash
+$ git remote add upstream https://github.com/upstream-username/original-repository.git
+```
+
+Upstream example (syncing a fork)
+
+```bash
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+```
+
+Push the changes to your corresponding branch in the forked repository in GitHub
+
+```bash
+$ git push origin master
+```
+
+
+Keep master branch up-to-date
+
+Fetch new branches and commits from the remote repository to local .git folder (add a remote first, if needed), without merging them locally. The branches stored here are called remote-tracking branches.  
+
+```bash
+$ git fetch <remote-name>
+```
+
+Checkout the branch you will be merging updates into (presumably the branch already exists)
+
+```bash
+$ git checkout <branch-name>
+```
+
+Merge remote-tracking branch updates with branch you are currently checked out on
+
+```bash
+$ git merge <remote-name>/<branch-name>
+```
+
+
 <tr><td width="30%">
 
 ![Slide 00]()
@@ -182,16 +265,6 @@ upstream  https://github.com/upstream-username/original-repository (push)
 
 </td></tr>
 
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Organization and Team Setup
-
-</td></tr>
 
 <tr><td width="30%">
 
