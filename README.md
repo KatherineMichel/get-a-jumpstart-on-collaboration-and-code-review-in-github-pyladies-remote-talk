@@ -186,15 +186,43 @@ upstream  https://github.com/upstream-username/original-repository (fetch)
 upstream  https://github.com/upstream-username/original-repository (push)
 ```
 
+
+### Syncing
+
+Whichever collaborative development model you are using, you can fetch the updates from the shared repository and merge them into your local development environment. 
+
+If you are working from the "Shared Repository" Model, you are fetching from the origin. 
+
+Keep master branch up-to-date
+
+Checkout the branch you will be merging updates into (presumably the branch already exists)
+Merge remote-tracking branch updates with branch you are currently checked out on
+
+Origin example
+
+```bash
+$ git fetch origin
+$ git checkout master
+$ git merge origin/master
+```
+
+Keep feature branch up-to-date (often merging master into feature branch)
+
+```bash
+$ git checkout <feature-branch-name>
+$ git merge <branch-name>
+```
+
+
 </td></tr>
 
 ## Adding an Upstream Remote and Syncing a Fork
 
-<!--
+
 If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
 
 You can name the additional remote something else, but upstream is the common convention.
--->
+
 
 Add upstream remote repository that will be synced with the fork
 
