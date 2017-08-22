@@ -97,6 +97,148 @@ Thank you!
 - [Go For It!](#go-for-it)
 - [Thank You](#thank-you)
 
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Why We Need Write Permission
+
+Example: DjangoCon US website is a deployed live and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
+
+</td></tr>
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Adding an Upstream Remote
+### Syncing a Fork
+
+The git remote add command takes two arguments:
+* A remote name, for example, upstream (you will be using this name in commands to refer to the remote)
+* A remote URL, for example, https://github.com/upstream-username/original-repository
+
+Add a remote
+
+```bash
+$ git remote add <remote-name> <remote-url>
+```
+
+Verify existing remote repository
+
+```bash
+$ git remote -v
+origin  https://github.com/your-username/your-fork (fetch)
+origin  https://github.com/your-username/your-fork (push)
+```
+
+Add upstream remote repository that will be synced with the fork
+
+```bash
+$ git remote add upstream https://github.com/upstream-username/original-repository.git
+```
+
+Verify new upstream remote (can only push to upstream if have write permission)
+
+```bash
+$ git remote -v
+origin  https://github.com/your-username/your-fork (fetch)
+origin  https://github.com/your-username/your-fork (push)
+upstream  https://github.com/upstream-username/original-repository (fetch)
+upstream  https://github.com/upstream-username/original-repository (push)
+```
+
+</td></tr>
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Another Workflow
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Learn More About Workflow
+
+* Git Flow (basically, the workflow we've been using)
+* A Successful Git Branching Model (more advanced)
+* A Successful Git Branching Model Considered Harmful (alternative view)
+* SemVer
+* See also: Atlassian and GitLab docs (you can also find insights in the docs of other software built on top of Git)
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Organization and Team Setup
+
+</td></tr>
+
+<tr><td width="30%">
+
+![Slide 10]()
+
+</td><td>
+
+### Prerequisites for Getting Started
+
+* Create a free [GitHub](https://github.com) account online
+* Install Git on your computer and set your email and username
+* Find and open your computer terminal (a.k.a. command line) on your computer
+* The ability to navigate via terminal would be helpful (I will give a few helpful commands in the Useful Resources section)
+* You might also want to have a text editor of your choice installed, to use to edit files
+
+You will find documentation for all of these things in the Useful Resources section.
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Getting Help
+
+* Help via Git, GitHub Help and Guides (links in Useful Resources Section)
+* Help via GitHub Keyboard Shortcuts (type "?")
+* Help via command line (exit by typing "q")
+
+```bash
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+```
+
+```bash
+$ git help clone
+$ git clone --help
+$ man git-clone
+```
+
+</td></tr>
+-->
+
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
