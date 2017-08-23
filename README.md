@@ -204,7 +204,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 
 </td><td>
 
-### Hands on Practice
+### Hands On Practice
 
 After I teach you the process, you will have the opportunity to apply the learning through a simulation. I think something that discourages people from becoming a maintainer and reviewing pull requests is that they are afraid of making a mistake in front of other people. Anyone who is interested can have you own repo where you can practice. There will be a pull request there that you can go through the process of reviewing. I highly recommend doing this. It gives you the opportunity to practice without being under pressure. Your repos will remain there indefinitely, so you can learn at your own pace. There may be other people who are attending this livecast who can help, and you can contact me if you need help. 
 
@@ -500,7 +500,7 @@ At some point, when the feature branch author thinks it's done, a pull request w
 
 If the changes are accepted, they will be merged into the master branch. The master branch will be like before, except with the changes from the branch.  
 
-But both feature branches (a.k.a. topic branches) and pull request branches are examples of branches. We can work on them in much the same way. 
+* But both feature branches (a.k.a. topic branches) and pull request branches are examples of branches. We can work on them in much the same way. 
 
 </td></tr>
 
@@ -542,11 +542,14 @@ You can also create and work on branches through the command line in your local 
 </td><td>
 
 ### Overview
-
 * Determine which collaboration approach to use (there are two)
 * Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
 * Review the two different types of pull requests as a DjangoCon US website repo maintainer
-
+* Additional workflow and command info
+* People, communication, documentation
+* Recommendations
+* Don’t Be Me
+* Simulation Exercise
 
 </td><td>
 
@@ -603,9 +606,13 @@ There are two types of accounts
 
 ### Write Permission
 
+We are not talking about "write" permission in the context of English.
 When a user has write permission to a repo, it means they can make changes directly inside of the repo.
 
 </td></tr>
+
+
+
 
 
 <tr><td width="30%">
