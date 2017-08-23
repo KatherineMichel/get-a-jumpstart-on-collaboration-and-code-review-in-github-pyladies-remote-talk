@@ -52,8 +52,8 @@ Thank you!
 - [My First Pull Request](#my-first-pull-request)
 - [DjangoCon US Website as Example Project](#djangocon-us-website-as-example-project)
 - [What are Git and GitHub?](#what-are-git-and-github)
-- [GitHub: Social Network](#github-social-network)
-- [GitHub: Repositories](#github-repositories)
+- [Social Network](#social-network)
+- [Repositories](#repositories)
 - [Local Development Environment](#local-development-environment)
 - [Collaboration and Code Review Best Practice Workflow](#collaboration-and-code-review-best-practice-workflow)
 - [Working on a File in GitHub](#working-on-a-file-in-github)
@@ -99,7 +99,6 @@ Thank you!
 - [Tidy Up](#tidy-up)
 - [Advanced Topics](#advanced-topics)
 - [Section 4](#section-4)
-
 - [Common Branch Commands](#common-branch-commands)
 - [Common Add and Commit Commands](#common-add-and-commit-commands)
 - [Common Push and Pull Commands](#common-push-and-pull-commands)
@@ -269,7 +268,7 @@ GitHub is a website built on the version control software Git.
 
 </td><td>
 
-### GitHub: Social Network
+### Social Network
 
 GitHub is a social network. You can:
 * Make a user profile
@@ -286,7 +285,7 @@ GitHub is a social network. You can:
 
 </td><td>
 
-### GitHub: Repositories
+### Repositories
 
 But the really important part of GitHub is that users can store and work on code together in repositories
 
@@ -299,7 +298,7 @@ But the really important part of GitHub is that users can store and work on code
 
 </td><td>
 
-### GitHub: Repositories
+### Repositories
 
 (Animation)
 
@@ -314,7 +313,7 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### GitHub: Repositories
+### Repositories
 
 (Animation)
 
