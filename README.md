@@ -116,18 +116,17 @@ Thank you!
 - [Documentation](#documentation)
 - [Templates](#templates)
 - [Communication Forums](#communication-forums)
-
 - [Section 6](#section-6)
-
 - [Code Safety](#code-safety)
 - [Additional Safety Considerations](#code-safety-considerations)
 - [Productivity Helpers](#productivity-helpers)
 - [Triaging](#triaging)
 - [Sandboxing](#sandboxing)
 - [Go For It!](#go-for-it)
-- [Debunking Myths](#debunking-myths)
+- [Section 7](#section-7)
 - [Don't Be Me](#dont-be-me)
-- [Simulation Exercise](#simulation-exercise)
+- [Debunking Myths](#debunking-myths)
+- [Section 8](#section-8)
 - [Prerequisites for Getting Started](#prerequisites-for-getting-started)
 - [Browser, Desktop, Command Line](#browser-desktop-command-line)
 - [Getting Help](#getting-help)
@@ -1631,6 +1630,17 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 </td><td>
 
+### Section 8
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
 ### Don't Be Me
 
 </td></tr>
@@ -1647,16 +1657,13 @@ My last but not least recommendation is that you become a contributor to the Dja
 </td></tr>
 
 
-
-
-
 <tr><td width="30%">
 
 ![Slide 00]()
 
 </td><td>
 
-### Simulation Exercise
+### Section 8
 
 </td></tr>
 
@@ -1735,7 +1742,6 @@ https://git.io/v5fRh
 
 GitHub and Bitbucket
 * [GitHub](https://github.com)
-* [Bitbucket](https://bitbucket.org)
 
 Getting Set Up
 * [Set Up Git](https://help.github.com/articles/set-up-git)
