@@ -296,7 +296,7 @@ $ git merge <remote-name>/<branch-name>
 
 <tr><td width="30%">
 
-![Slide 10]()
+![Slide 00]()
 
 </td><td>
 
@@ -336,6 +336,22 @@ $ git help clone
 $ git clone --help
 $ man git-clone
 ```
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Productivity Tips
+
+* Cache your password
+* Set up special configs (example: line endings)
+* Create saved replies
+* Link to specific line number on GitHub
 
 </td></tr>
 -->
