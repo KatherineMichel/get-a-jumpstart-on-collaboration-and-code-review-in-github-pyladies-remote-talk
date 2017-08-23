@@ -612,9 +612,6 @@ When a user has write permission to a repo, it means they can make changes direc
 </td></tr>
 
 
-
-
-
 <tr><td width="30%">
 
 ![Slide 31]()
@@ -623,9 +620,13 @@ When a user has write permission to a repo, it means they can make changes direc
 
 ### Examples of What Write Permission Will Allow You to Do
 
+* Edit files
+* Push branches directly to the repo (instead of via fork)
+* Merge and close pull requests
+
+https://help.github.com/articles/repository-permission-levels-for-an-organization
+
 </td></tr>
-
-
 
 
 <tr><td width="30%">
@@ -741,6 +742,7 @@ There will be a message notifying you that it is being forked.
 * Click on the hyperlink and it will open the repo
 * The repo URL will have my user account name in it
 * The fork is an exact copy of the original repo at the time it was forked. I could make any changes I wanted to the fork, including deleting it, and the original repo will not be affected. 
+* In addition to using a fork to propose a change to the original repo, you can also use a fork for the starting point of a new idea of your own (depending on the license). 
 
 </td></tr>
 
@@ -753,6 +755,8 @@ There will be a message notifying you that it is being forked.
 
 ### Interesting Thing #1: Opposites
 
+It’s typical that a shared repository will be found in an organization and a fork will be found in a user account. However, it can be the other way around, it’s just not nearly as common. I think it’s interesting to know that a repo can be forked into an organization account and a user account can have a shared repository. 
+
 </td></tr>
 
 
@@ -763,6 +767,9 @@ There will be a message notifying you that it is being forked.
 </td><td>
 
 ### Interesting Thing #2: User Account Shared Repo Disadvantage
+
+* Organization account owners can create teams and permissions across multiple repos
+* Otherwise, the repo “Shared Repository” settings are almost exactly the same. Teams and permissions are at an organization level.
 
 </td></tr>
 
@@ -775,6 +782,10 @@ There will be a message notifying you that it is being forked.
 
 ### Interesting Thing #3: Write Permission Examples
 
+* Organization account maintainer (an organizational account owner can give you write permission to one or more repos)
+* User account owner (sources and forks, which is why you fork if you do not have write permission to shared repo)
+* User account collaborator (a user account owner has given you write permission to one of their personal repos)
+
 </td></tr>
 
 
@@ -785,6 +796,8 @@ There will be a message notifying you that it is being forked.
 </td><td>
 
 ### Interesting Thing #4: Inactive Pull Requests
+
+A few minutes ago, I talked about how it’s impractical to go into a file and make changes directly if you are working with multiple people and that it’s better to use branches. If you fork a repo, you also want to use branches. Say for instance, you make a change in the file and submit a pull request (without using a branch), you’re stuck waiting for the pull request to be resolved. Normally, you want your main branch to stay up-to-date so that you create new feature branches, but you’ve made a change in your main branch. If you delete the fork and refork to make it up to date, the pull request remains, but is inactive. It will be harder for the maintainer and you to work on. Instead, you want to keep the main branch up-to-date and use branches, just like we talked about a few minutes ago. 
 
 </td></tr>
 
@@ -800,7 +813,10 @@ There will be a message notifying you that it is being forked.
 * Determine which collaboration approach to use (there are two)
 * Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
 
+
 </td></tr>
+
+
 
 
 <tr><td width="30%">
