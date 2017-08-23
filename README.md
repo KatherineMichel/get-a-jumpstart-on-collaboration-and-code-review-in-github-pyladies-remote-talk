@@ -817,8 +817,6 @@ A few minutes ago, I talked about how it’s impractical to go into a file and m
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
 ![Slide 45](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_37.jpg)
@@ -937,6 +935,9 @@ Here's what it looks like when we use the "Shared Repository" Model
 * Submit the pull request
 
 </td></tr>
+
+
+
 
 
 <tr><td width="30%">
