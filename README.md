@@ -97,298 +97,6 @@ Thank you!
 - [Go For It!](#go-for-it)
 - [Thank You](#thank-you)
 
-<!--
-See write permissions chart for info
-Advanced workflow
-
-* [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
-
-* [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
-
-http://opensourcesurvey.org/2017/#insights
-http://opensourcesurvey.org/2017/
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Why We Need Write Permission
-
-Example: DjangoCon US website is a deployed live and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Shared Repository Model: User Account Versus Organization
-
-A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
-
-* Organizational account owners can create teams and permissions across multiple repos
-* Otherwise, the repo shared repository" settings are almost exactly the same
-
-</td></tr>
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Alternatively, Fetch Individual Pull Request
-
-This will only work for pull request branches, not feature branches. 
-
-Pull updates to the individual pull request into your local branch
-
-```bash
-$ git pull origin pull/<pull-request-number>/head:<branch-name>
-```
-
-Alternatively, fetch the individual pull request into your folder
-
-```bash
-$ git fetch origin pull/<pull-request-number>/head:<branch-name>
-```
-
-Example
-
-```bash
-$ git fetch origin pull/1/head:patch-1
-```
-
-</td></tr>
-
-
-## Tidy Up
-
-When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
-
-* Close pull request
-* Revert pull request (hopefully not needed)
-* Delete local and remote (in browser) feature branch
-
-
-### Adding an Upstream Remote
-### Syncing a Fork
-
-The git remote add command takes two arguments:
-* A remote name, for example, upstream (you will be using this name in commands to refer to the remote)
-* A remote URL, for example, https://github.com/upstream-username/original-repository
-
-Add a remote
-
-```bash
-$ git remote add <remote-name> <remote-url>
-```
-
-Verify existing remote repository
-
-```bash
-$ git remote -v
-origin  https://github.com/your-username/your-fork (fetch)
-origin  https://github.com/your-username/your-fork (push)
-```
-
-Add upstream remote repository that will be synced with the fork
-
-```bash
-$ git remote add upstream https://github.com/upstream-username/original-repository.git
-```
-
-Verify new upstream remote (can only push to upstream if have write permission)
-
-```bash
-$ git remote -v
-origin  https://github.com/your-username/your-fork (fetch)
-origin  https://github.com/your-username/your-fork (push)
-upstream  https://github.com/upstream-username/original-repository (fetch)
-upstream  https://github.com/upstream-username/original-repository (push)
-```
-
-
-### Syncing
-
-Whichever collaborative development model you are using, you can fetch the updates from the shared repository and merge them into your local development environment. 
-
-If you are working from the "Shared Repository" Model, you are fetching from the origin. 
-
-Keep master branch up-to-date
-
-Checkout the branch you will be merging updates into (presumably the branch already exists)
-Merge remote-tracking branch updates with branch you are currently checked out on
-
-Origin example
-
-```bash
-$ git fetch origin
-$ git checkout master
-$ git merge origin/master
-```
-
-Keep feature branch up-to-date (often merging master into feature branch)
-
-```bash
-$ git checkout <feature-branch-name>
-$ git merge <branch-name>
-```
-
-
-</td></tr>
-
-## Adding an Upstream Remote and Syncing a Fork
-
-
-If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
-
-You can name the additional remote something else, but upstream is the common convention.
-
-
-Add upstream remote repository that will be synced with the fork
-
-```bash
-$ git remote add upstream https://github.com/upstream-username/original-repository.git
-```
-
-Upstream example (syncing a fork)
-
-```bash
-$ git fetch upstream
-$ git checkout master
-$ git merge upstream/master
-```
-
-Push the changes to your corresponding branch in the forked repository in GitHub
-
-```bash
-$ git push origin master
-```
-
-
-Keep master branch up-to-date
-
-Fetch new branches and commits from the remote repository to local .git folder (add a remote first, if needed), without merging them locally. The branches stored here are called remote-tracking branches.  
-
-```bash
-$ git fetch <remote-name>
-```
-
-Checkout the branch you will be merging updates into (presumably the branch already exists)
-
-```bash
-$ git checkout <branch-name>
-```
-
-Merge remote-tracking branch updates with branch you are currently checked out on
-
-```bash
-$ git merge <remote-name>/<branch-name>
-```
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Another Workflow
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Learn More About Workflow
-
-* Git Flow (basically, the workflow we've been using)
-* A Successful Git Branching Model (more advanced)
-* A Successful Git Branching Model Considered Harmful (alternative view)
-* SemVer
-* See also: Atlassian and GitLab docs (you can also find insights in the docs of other software built on top of Git)
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Prerequisites for Getting Started
-
-* Create a free [GitHub](https://github.com) account online
-* Install Git on your computer and set your email and username
-* Find and open your computer terminal (a.k.a. command line) on your computer
-* The ability to navigate via terminal would be helpful (I will give a few helpful commands in the Useful Resources section)
-* You might also want to have a text editor of your choice installed, to use to edit files
-
-You will find documentation for all of these things in the Useful Resources section.
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Getting Help
-
-* Help via Git, GitHub Help and Guides (links in Useful Resources Section)
-* Help via GitHub Keyboard Shortcuts (type "?")
-* Help via command line (exit by typing "q")
-
-```bash
-$ git help <verb>
-$ git <verb> --help
-$ man git-<verb>
-```
-
-```bash
-$ git help clone
-$ git clone --help
-$ man git-clone
-```
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Productivity Tips
-
-* Cache your password
-* Set up special configs (example: line endings)
-* Create saved replies
-* Link to specific line number on GitHub
-
-</td></tr>
--->
-
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
@@ -1891,6 +1599,316 @@ If pull remote tracking branch updates, and have a problem
 $ git merge --abort
 ```
 -->
+
+<!--
+See write permissions chart for info
+Advanced workflow
+
+* [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
+
+* [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
+
+http://opensourcesurvey.org/2017/#insights
+http://opensourcesurvey.org/2017/
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Why We Need Write Permission
+
+Example: DjangoCon US website is a deployed live and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Shared Repository Model: User Account Versus Organization
+
+A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
+
+* Organizational account owners can create teams and permissions across multiple repos
+* Otherwise, the repo shared repository" settings are almost exactly the same
+
+</td></tr>
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Alternatively, Fetch Individual Pull Request
+
+This will only work for pull request branches, not feature branches. 
+
+Pull updates to the individual pull request into your local branch
+
+```bash
+$ git pull origin pull/<pull-request-number>/head:<branch-name>
+```
+
+Alternatively, fetch the individual pull request into your folder
+
+```bash
+$ git fetch origin pull/<pull-request-number>/head:<branch-name>
+```
+
+Example
+
+```bash
+$ git fetch origin pull/1/head:patch-1
+```
+
+</td></tr>
+
+
+## Tidy Up
+
+When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
+
+* Close pull request
+* Revert pull request (hopefully not needed)
+* Delete local and remote (in browser) feature branch
+
+
+### Adding an Upstream Remote
+### Syncing a Fork
+
+The git remote add command takes two arguments:
+* A remote name, for example, upstream (you will be using this name in commands to refer to the remote)
+* A remote URL, for example, https://github.com/upstream-username/original-repository
+
+Add a remote
+
+```bash
+$ git remote add <remote-name> <remote-url>
+```
+
+Verify existing remote repository
+
+```bash
+$ git remote -v
+origin  https://github.com/your-username/your-fork (fetch)
+origin  https://github.com/your-username/your-fork (push)
+```
+
+Add upstream remote repository that will be synced with the fork
+
+```bash
+$ git remote add upstream https://github.com/upstream-username/original-repository.git
+```
+
+Verify new upstream remote (can only push to upstream if have write permission)
+
+```bash
+$ git remote -v
+origin  https://github.com/your-username/your-fork (fetch)
+origin  https://github.com/your-username/your-fork (push)
+upstream  https://github.com/upstream-username/original-repository (fetch)
+upstream  https://github.com/upstream-username/original-repository (push)
+```
+
+
+### Syncing
+
+Whichever collaborative development model you are using, you can fetch the updates from the shared repository and merge them into your local development environment. 
+
+If you are working from the "Shared Repository" Model, you are fetching from the origin. 
+
+Keep master branch up-to-date
+
+Checkout the branch you will be merging updates into (presumably the branch already exists)
+Merge remote-tracking branch updates with branch you are currently checked out on
+
+Origin example
+
+```bash
+$ git fetch origin
+$ git checkout master
+$ git merge origin/master
+```
+
+Keep feature branch up-to-date (often merging master into feature branch)
+
+```bash
+$ git checkout <feature-branch-name>
+$ git merge <branch-name>
+```
+
+
+</td></tr>
+
+## Adding an Upstream Remote and Syncing a Fork
+
+
+If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
+
+You can name the additional remote something else, but upstream is the common convention.
+
+
+Add upstream remote repository that will be synced with the fork
+
+```bash
+$ git remote add upstream https://github.com/upstream-username/original-repository.git
+```
+
+Upstream example (syncing a fork)
+
+```bash
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+```
+
+Push the changes to your corresponding branch in the forked repository in GitHub
+
+```bash
+$ git push origin master
+```
+
+
+Keep master branch up-to-date
+
+Fetch new branches and commits from the remote repository to local .git folder (add a remote first, if needed), without merging them locally. The branches stored here are called remote-tracking branches.  
+
+```bash
+$ git fetch <remote-name>
+```
+
+Checkout the branch you will be merging updates into (presumably the branch already exists)
+
+```bash
+$ git checkout <branch-name>
+```
+
+Merge remote-tracking branch updates with branch you are currently checked out on
+
+```bash
+$ git merge <remote-name>/<branch-name>
+```
+
+
+Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
+
+Clone (or download) the repo you have write permission to using the repo URL (this repo will be your origin)
+
+Example: clone (or download) an organizational repo (organizational repo will be "origin")
+
+```bash
+$ git clone https://github.com/<organization-name>/<repo-name>
+```
+
+Example: clone (or download) a user account repo (repo needs to have already been forked to user account, forked repo will be "origin")
+
+```bash
+$ git clone https://github.com/<user-name>/<repo-name>
+```
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Another Workflow
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Learn More About Workflow
+
+* Git Flow (basically, the workflow we've been using)
+* A Successful Git Branching Model (more advanced)
+* A Successful Git Branching Model Considered Harmful (alternative view)
+* SemVer
+* See also: Atlassian and GitLab docs (you can also find insights in the docs of other software built on top of Git)
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Prerequisites for Getting Started
+
+* Create a free [GitHub](https://github.com) account online
+* Install Git on your computer and set your email and username
+* Find and open your computer terminal (a.k.a. command line) on your computer
+* The ability to navigate via terminal would be helpful (I will give a few helpful commands in the Useful Resources section)
+* You might also want to have a text editor of your choice installed, to use to edit files
+
+You will find documentation for all of these things in the Useful Resources section.
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Getting Help
+
+* Help via Git, GitHub Help and Guides (links in Useful Resources Section)
+* Help via GitHub Keyboard Shortcuts (type "?")
+* Help via command line (exit by typing "q")
+
+```bash
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+```
+
+```bash
+$ git help clone
+$ git clone --help
+$ man git-clone
+```
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Productivity Tips
+
+* Cache your password
+* Set up special configs (example: line endings)
+* Create saved replies
+* Link to specific line number on GitHub
+
+</td></tr>
+-->
+
 
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
