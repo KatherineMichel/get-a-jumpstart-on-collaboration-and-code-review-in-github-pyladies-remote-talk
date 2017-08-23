@@ -626,6 +626,8 @@ When a user has write permission to a repo, it means they can make changes direc
 </td></tr>
 
 
+
+
 <tr><td width="30%">
 
 ![Slide 32]()
@@ -633,6 +635,8 @@ When a user has write permission to a repo, it means they can make changes direc
 </td><td>
 
 ### Why We Need Write Permission
+
+Example: DjangoCon US website is a deployed live from the master branch and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. There is often a level of trust involved in having write permission.
 
 </td></tr>
 
