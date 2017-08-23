@@ -64,7 +64,7 @@ Thank you!
 - [The Two Collaborative Development Models](#the-two-collaborative-development-models)
 - [The Two Types of Accounts](#the-two-types-of-accounts)
 - [Write Permission](#write-permission)
-- [Examples of Write Permission Will Allow You to Do](#examples-of-what-write-permission-will-allow-you-to-do)
+- [Examples of What Write Permission Will Allow You to Do](#examples-of-what-write-permission-will-allow-you-to-do)
 - [Why We Need Write Permission](#why-we-need-write-permission)
 - [Write Permission and Collaboration Examples](#write-permission-and-collaboration-examples)
 - [How to Fork a Repo](#how-to-fork-a-repo)
@@ -180,6 +180,17 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 * I'm going to be showing you a lot of screenshots and diagrams, because I want you to understand what the process looks like.
 * But don’t worry if you miss anything, because at the end of my talk, there will be a slide with a link to Useful Resources where you will find documentation and all of the commands I will be showing you today. 
 * My slides and a video of my talk will also be online later.
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Hands on Practice
 
 </td></tr>
 
@@ -519,7 +530,7 @@ You can also create and work on branches through the command line in your local 
 * Determine which collaboration approach to use (there are two)
 * Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
 * Review the two different types of pull requests as a DjangoCon US website repo maintainer
-* Recommendations
+
 
 </td><td>
 
@@ -577,6 +588,28 @@ There are two types of accounts
 ### Write Permission
 
 When a user has write permission to a repo, it means they can make changes directly inside of the repo.
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Examples of What Write Permission Will Allow You to Do
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Why We Need Write Permission
 
 </td></tr>
 
@@ -681,6 +714,50 @@ There will be a message notifying you that it is being forked.
 * Click on the hyperlink and it will open the repo
 * The repo URL will have my user account name in it
 * The fork is an exact copy of the original repo at the time it was forked. I could make any changes I wanted to the fork, including deleting it, and the original repo will not be affected. 
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Interesting Thing #1: Opposites
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Interesting Thing #2: User Account Shared Repo Disadvantage
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Interesting Thing #3: Write Permission Examples
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Interesting Thing #4: Inactive Pull Requests
 
 </td></tr>
 
@@ -815,6 +892,17 @@ Here's what it looks like when we use the "Shared Repository" Model
 
 * Make our changes, push the changes back to the shared repository
 * Submit the pull request
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Bash Commands
 
 </td></tr>
 
@@ -1222,6 +1310,39 @@ $ git push origin master
 
 <tr><td width="30%">
 
+![Slide 00]()
+
+</td><td>
+
+### Merge Conflict
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Tidy Up
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Advanced Topics
+
+</td></tr>
+
+
+<tr><td width="30%">
+
 ![Slide 69](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_69.jpg)
 
 </td><td>
@@ -1231,14 +1352,156 @@ $ git push origin master
 * Determine which collaboration approach to use (there are two)
 * Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
 * Review the two different types of pull requests as a DjangoCon US website repo maintainer
-* Recommendations
 
 </td><td>
 
 
 <tr><td width="30%">
 
-![Slide 70](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_70.jpg)
+![Slide 00]()
+
+</td><td>
+
+### Common Branch Commands
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Common Add and Commit Commands
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Common Push and Pull Commands
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Fetch and Merge Versus Pull
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Keeping Branches Up-to-Date
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Adding a Remote Upstream and Syncing a Fork
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### GitHub Flow
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Another Workflow
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Workflow Decisions
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Learn More About Workflow
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Section 5
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Getting to 10x Results
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Communication Strategy
+
+</td><td>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
 
 </td><td>
 
@@ -1247,6 +1510,30 @@ $ git push origin master
 My first recommendation is that you go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation, read it, and make the documentations in your own projects equally welcoming and positive. 
 
 </td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Templates
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Communication Forums
+
+</td></tr>
+
+
 
 
 <tr><td width="30%">
