@@ -1797,6 +1797,55 @@ $ git checkout -b <branch-name> <branch-branching-off-of>
 ```
 -->
 
+<!--
+Merging a remote branch into a local branch
+
+git pull origin <branch-name>
+
+$ git pull origin master
+$ git push origin master
+
+Pull in the changes from the remote branch
+
+$ git pull https://github.com/upstream-username/original-repository <branch-name>
+
+
+
+### Pulling Versus Fetching and Merging
+
+There are two ways to fetch a pull request branch to your local development environment to run.  
+
+* You can fetch and merge as two separate commands
+* Or you can pull, which combines fetching and merging into one command
+
+
+
+```bash
+$ git pull <remote-name>
+$ git push <remote-name>
+```
+
+Instead, pull directly from the remote repository branch ($ git fetch + $ git merge in one command)
+
+```bash
+$ git pull <remote-name> <branch-name>
+$ git push <remote-name> <branch-name>
+```
+
+Pushing and pulling via remote URL (will come in handy later when we are working with pull request from a fork)
+
+```bash
+git pull https://github.com/<user-name>/<repo-name> <branch-name>
+git push https://github.com/<user-name>/<repo-name> <branch-name>
+```
+
+Push additional commits to organizational feature branch or pull request branch, if local branch name is different than pull request branch name
+ 
+```bash
+$ git push origin <local-branch-name>:<remote-branch-name>
+```
+-->
+
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
