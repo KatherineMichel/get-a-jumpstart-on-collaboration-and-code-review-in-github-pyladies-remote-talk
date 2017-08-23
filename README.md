@@ -1534,6 +1534,15 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 </td></tr>
 
 
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Section 6
+
+</td></tr>
 
 
 <tr><td width="30%">
@@ -1542,10 +1551,32 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 
 </td><td>
 
-### Safety
+### Code Safety
 
 My second recommendation is that if you have the authority, go into a repo’s Settings, click the Branches tab
 * Protect the main branch so it can’t be deleted (for example, your master branch)
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Additional Safety Considerations
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Productivity Helpers
 
 </td></tr>
 
@@ -1590,6 +1621,86 @@ My fourth recommendation is that you
 
 My last but not least recommendation is that you become a contributor to the DjangoCon US website next year 
 * We have a diverse group of contributors of all skill levels and we are always looking for more contributors. Let us know if you are interested.  
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Don't Be Me
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Debunking Myths
+
+</td></tr>
+
+
+
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Simulation Exercise
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Prerequisites for Getting Started
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Browser, Desktop, Command Line
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Getting Help
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Organization and Repo Tour
 
 </td></tr>
 
