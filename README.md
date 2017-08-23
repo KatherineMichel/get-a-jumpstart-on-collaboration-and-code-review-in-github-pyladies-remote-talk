@@ -98,6 +98,9 @@ Thank you!
 - [Thank You](#thank-you)
 
 <!--
+See write permissions chart for info
+Advanced workflow
+
 * [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
 
 * [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
@@ -136,6 +139,36 @@ A user account repo can be a shared repository. A user account owner can invite 
 
 * Organizational account owners can create teams and permissions across multiple repos
 * Otherwise, the repo shared repository" settings are almost exactly the same
+
+</td></tr>
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Alternatively, Fetch Individual Pull Request
+
+This will only work for pull request branches, not feature branches. 
+
+Pull updates to the individual pull request into your local branch
+
+```bash
+$ git pull origin pull/<pull-request-number>/head:<branch-name>
+```
+
+Alternatively, fetch the individual pull request into your folder
+
+```bash
+$ git fetch origin pull/<pull-request-number>/head:<branch-name>
+```
+
+Example
+
+```bash
+$ git fetch origin pull/1/head:patch-1
+```
 
 </td></tr>
 
@@ -1843,6 +1876,19 @@ Push additional commits to organizational feature branch or pull request branch,
  
 ```bash
 $ git push origin <local-branch-name>:<remote-branch-name>
+```
+
+
+Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
+
+```bash
+$ git pull <remote-name>/<branch-name>
+```
+
+If pull remote tracking branch updates, and have a problem
+
+```bash
+$ git merge --abort
 ```
 -->
 
