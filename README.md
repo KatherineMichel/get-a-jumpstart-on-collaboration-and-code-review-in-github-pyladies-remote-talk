@@ -88,8 +88,6 @@ Thank you!
 - [Pushing](#pushing)
 - [New Branch](#new-branch)
 - [Submit a Pull Request](#submit-a-pull-request)
-
-
 - [Section 3](#section-3)
 - [Pull Request Review Process](#pull-request-review-process)
 - [Pull Request Command Line](#pull-request-command-line)
@@ -97,12 +95,38 @@ Thank you!
 - [Pull Request Branches](#pull-request-branches)
 - [Pull Request Review](#pull-request-review)
 - [Merging](#merging)
+- [Merge Conflict](#merge-conflict)
+- [Tidy Up](#tidy-up)
+- [Advanced Topics](#advanced-topics)
 - [Section 4](#section-4)
+
+- [Common Branch Commands](#common-branch-commands)
+- [Common Add and Commit Commands](#common-add-and-commit-commands)
+- [Common Push and Pull Commands](#common-push-and-pull-commands)
+- [Fetch and Merge Versus Pull](#fetch-and-merge-versus-pull)
+- [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
+- [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
+- [GitHub Flow](#github-flow)
+- [Another Workflow](#another-workflow)
+- [Workflow Decisions](#workflow-decisions)
+- [Learn More About Workflow](#learn-more-about-workflow)
+- [Section 5](#section-5)
+- [Getting to 10x Results](#getting-to-10x-results)
+- [Communication Strategy](#communication-strategy)
 - [Documentation](#documentation)
-- [Safety](#safety)
+- [Templates](#templates)
+- [Communication Forums](#communication-forums)
+
+- [Section 6](#section-6)
+
+- [Code Safety](#code-safety)
+- [Additional Safety Considerations](#code-safety-considerations)
+- [Productivity Helpers](#productivity-helpers)
 - [Triaging](#triaging)
 - [Sandboxing](#sandboxing)
 - [Go For It!](#go-for-it)
+- [Debunking Myths](#debunking-myths)
+
 - [Thank You](#thank-you)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
