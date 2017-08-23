@@ -126,7 +126,12 @@ Thank you!
 - [Sandboxing](#sandboxing)
 - [Go For It!](#go-for-it)
 - [Debunking Myths](#debunking-myths)
-
+- [Don't Be Me](#dont-be-me)
+- [Simulation Exercise](#simulation-exercise)
+- [Prerequisites for Getting Started](#prerequisites-for-getting-started)
+- [Browser, Desktop, Command Line](#browser-desktop-command-line)
+- [Getting Help](#getting-help)
+- [Organization and Repo Tour](#organization-and-repo-tour)
 - [Thank You](#thank-you)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
