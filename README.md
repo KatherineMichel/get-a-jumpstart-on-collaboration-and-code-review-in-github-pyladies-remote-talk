@@ -642,6 +642,21 @@ Example: DjangoCon US website is a deployed live from the master branch and has 
 </td></tr>
 
 
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Why We Need Write Permission
+
+Example: DjangoCon US website is a deployed live and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
+
+</td></tr>
+-->
+
+
 <tr><td width="30%">
 
 ![Slide 33](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_29.jpg)
@@ -788,6 +803,28 @@ It’s typical that a shared repository will be found in an organization and a f
 
 </td></tr>
 
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Shared Repository Model: User Account Versus Organization
+
+A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
+
+* Organizational account owners can create teams and permissions across multiple repos
+* Otherwise, the repo shared repository" settings are almost exactly the same
+
+</td></tr>
+-->
 
 <tr><td width="30%">
 
@@ -1398,6 +1435,17 @@ $ git push <remote-name> :<branch-name>
 </td></tr>
 
 
+<!--
+## Tidy Up
+
+When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
+
+* Close pull request
+* Revert pull request (hopefully not needed)
+* Delete local and remote (in browser) feature branch
+-->
+
+
 <tr><td width="30%">
 
 ![Slide 80]()
@@ -1518,7 +1566,6 @@ Some projects use both a master and develop branch. For example, in a mission cr
 </td><td>
 
 
-
 <tr><td width="30%">
 
 ![Slide 90]()
@@ -1547,6 +1594,24 @@ Some developers have passionate views about workflow (see comment threads in som
 * See also: Atlassian and GitLab docs
 
 </td><td>
+
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Learn More About Workflow
+
+* Git Flow (basically, the workflow we've been using)
+* A Successful Git Branching Model (more advanced)
+* A Successful Git Branching Model Considered Harmful (alternative view)
+* SemVer
+* See also: Atlassian and GitLab docs (you can also find insights in the docs of other software built on top of Git)
+
+</td></tr>
+-->
 
 
 <tr><td width="30%">
@@ -1693,6 +1758,22 @@ Here are a few things you might want to do to keep your code safe
 
 </td></tr>
 
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Productivity Tips
+
+* Cache your password
+* Set up special configs (example: line endings)
+* Create saved replies
+* Link to specific line number on GitHub
+
+</td></tr>
+-->
 
 <tr><td width="30%">
 
@@ -1797,6 +1878,26 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 </td></tr>
 
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Prerequisites for Getting Started
+
+* Create a free [GitHub](https://github.com) account online
+* Install Git on your computer and set your email and username
+* Find and open your computer terminal (a.k.a. command line) on your computer
+* The ability to navigate via terminal would be helpful (I will give a few helpful commands in the Useful Resources section)
+* You might also want to have a text editor of your choice installed, to use to edit files
+
+You will find documentation for all of these things in the Useful Resources section.
+
+</td></tr>
+-->
+
 
 <tr><td width="30%">
 
@@ -1818,6 +1919,35 @@ My last but not least recommendation is that you become a contributor to the Dja
 ### Getting Help
 
 </td></tr>
+
+
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Getting Help
+
+* Help via Git, GitHub Help and Guides (links in Useful Resources Section)
+* Help via GitHub Keyboard Shortcuts (type "?")
+* Help via command line (exit by typing "q")
+
+```bash
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+```
+
+```bash
+$ git help clone
+$ git clone --help
+$ man git-clone
+```
+
+</td></tr>
+-->
 
 
 <tr><td width="30%">
@@ -2173,39 +2303,7 @@ Advanced workflow
 http://opensourcesurvey.org/2017/#insights
 http://opensourcesurvey.org/2017/
 
-<tr><td width="30%">
 
-![Slide 00]()
-
-</td><td>
-
-### Why We Need Write Permission
-
-Example: DjangoCon US website is a deployed live and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Shared Repository Model: User Account Versus Organization
-
-A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
-
-* Organizational account owners can create teams and permissions across multiple repos
-* Otherwise, the repo shared repository" settings are almost exactly the same
-
-</td></tr>
 
 <tr><td width="30%">
 
@@ -2236,15 +2334,6 @@ $ git fetch origin pull/1/head:patch-1
 ```
 
 </td></tr>
-
-
-## Tidy Up
-
-When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
-
-* Close pull request
-* Revert pull request (hopefully not needed)
-* Delete local and remote (in browser) feature branch
 
 
 ### Adding an Upstream Remote
@@ -2379,96 +2468,6 @@ Example: clone (or download) a user account repo (repo needs to have already bee
 ```bash
 $ git clone https://github.com/<user-name>/<repo-name>
 ```
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Another Workflow
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Learn More About Workflow
-
-* Git Flow (basically, the workflow we've been using)
-* A Successful Git Branching Model (more advanced)
-* A Successful Git Branching Model Considered Harmful (alternative view)
-* SemVer
-* See also: Atlassian and GitLab docs (you can also find insights in the docs of other software built on top of Git)
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Prerequisites for Getting Started
-
-* Create a free [GitHub](https://github.com) account online
-* Install Git on your computer and set your email and username
-* Find and open your computer terminal (a.k.a. command line) on your computer
-* The ability to navigate via terminal would be helpful (I will give a few helpful commands in the Useful Resources section)
-* You might also want to have a text editor of your choice installed, to use to edit files
-
-You will find documentation for all of these things in the Useful Resources section.
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Getting Help
-
-* Help via Git, GitHub Help and Guides (links in Useful Resources Section)
-* Help via GitHub Keyboard Shortcuts (type "?")
-* Help via command line (exit by typing "q")
-
-```bash
-$ git help <verb>
-$ git <verb> --help
-$ man git-<verb>
-```
-
-```bash
-$ git help clone
-$ git clone --help
-$ man git-clone
-```
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Productivity Tips
-
-* Cache your password
-* Set up special configs (example: line endings)
-* Create saved replies
-* Link to specific line number on GitHub
-
-</td></tr>
 -->
 
 
