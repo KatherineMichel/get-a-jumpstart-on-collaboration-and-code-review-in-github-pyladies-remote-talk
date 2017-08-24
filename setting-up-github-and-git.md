@@ -4,10 +4,10 @@ Kati's session will include a short, optional (but highly valuable) pull request
 
 ## GitHub and Git Set Up Instructions
 
-* [Setting up a New GitHub Account](https://help.github.com/articles/signing-up-for-a-new-github-account)
+* [GitHub Homepage (for user account signup)](https://github.com)
 * [Git Downloads (based on your operating system)](https://git-scm.com/downloads)
 * [Getting Started Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* [Homebrew Git Formula (simple install for Mac users)](http://braumeister.org/formula/git)
+* [Homebrew Git Formula (for Mac users who use Homebrew)](http://braumeister.org/formula/git)
 * [Setting Your Username in Git](https://help.github.com/articles/setting-your-username-in-git)
 * [Setting Your Email Address in Git](https://help.github.com/articles/setting-your-commit-email-address-in-git)
 
