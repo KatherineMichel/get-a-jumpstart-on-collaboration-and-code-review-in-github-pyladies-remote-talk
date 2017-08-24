@@ -1147,8 +1147,6 @@ There will now be a new branch in the repo that is your origin and a message tel
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
 ![Slide 66](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_57.jpg)
@@ -1172,7 +1170,7 @@ You can toggle back and forth between the branches by clicking on the branches i
 
 ### Submit a Pull Request
 
-Go to the repo you want your pull request to be merged into, in this case, the DjangoCon US website repo. There will also be a message here telling you about the branch and suggesting that you submit a pull request, even if the branch is in a fork, because GitHub will detect it. Click on the "Compare & pull request" button. 
+Go to the repo you want your pull request to be merged into, in this case, the DjangoCon US website repo. The reason why I saw this is because you can accidentally submit a pull request to yourself in your fork. In the DjangoCon US website repo, there will also be a message here telling you about the branch and suggesting that you submit a pull request, even if the branch is in a fork, because GitHub will detect it. Click on the "Compare & pull request" button. 
 
 </td></tr>
 
@@ -1210,6 +1208,8 @@ Go to the repo you want your pull request to be merged into, in this case, the D
 * Review the two different types of pull requests as a DjangoCon US website repo maintainer
 
 </td></tr>
+
+
 
 
 <tr><td width="30%">
