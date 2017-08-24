@@ -13,21 +13,21 @@ Kati's session will include a short, optional (but highly valuable) pull request
 
 Verify that git is installed by typing into your command line
 
-'''bash
-git --version
-'''
+```bash
+$ git --version
+```
 
 Verify that your username is set by typing into your command line
 
-'''bash
+```bash
 git config --global user.name
-'''
+```
 
 Verify that your email is set by typing into your command line
 
-'''bash
+```bash
 git config --global user.email
-'''
+```
 
 ## Contact Kati
 
