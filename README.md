@@ -1426,7 +1426,7 @@ $ git push origin master
 
 ### Tidy Up
 
-After you close a pull request it’s good practice to delete the feature branch in the browser and locally. There will be a button on the pull request page that you can use to delete the feature branch in the browser, or you can delete it in the branches tab. Or, you can use the third command. The first two commands are to delete the branch locally. 
+After a pull request is closed, it’s good practice to delete the feature branch in the browser and locally. There will be a button on the pull request page that you can use to delete the feature branch in the browser, or you can delete it in the branches tab. Or, you can use the third command. The first two commands are to delete the branch locally. 
 
 $ git branch -d <branch-name>
 $ git branch -D <branch-name>
@@ -1435,13 +1435,8 @@ $ git push <remote-name> :<branch-name>
 </td></tr>
 
 
+
 <!--
-## Tidy Up
-
-When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
-
-* Close pull request
-* Revert pull request (hopefully not needed)
 * Delete local and remote (in browser) feature branch
 -->
 
@@ -1578,6 +1573,7 @@ Some projects use both a master and develop branch. For example, in a mission cr
 
 
 
+
 <tr><td width="30%">
 
 ![Slide 91]()
@@ -1591,27 +1587,9 @@ Some developers have passionate views about workflow (see comment threads in som
 * A Successful Git Branching Model (more advanced)
 * A Successful Git Branching Model Considered Harmful (alternative view)
 * SemVer
-* See also: Atlassian and GitLab docs
+* See also: Atlassian and GitLab docs  (you can also find insights in the docs of other software built on top of Git)
 
 </td><td>
-
-<!--
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Learn More About Workflow
-
-* Git Flow (basically, the workflow we've been using)
-* A Successful Git Branching Model (more advanced)
-* A Successful Git Branching Model Considered Harmful (alternative view)
-* SemVer
-* See also: Atlassian and GitLab docs (you can also find insights in the docs of other software built on top of Git)
-
-</td></tr>
--->
 
 
 <tr><td width="30%">
@@ -1629,6 +1607,7 @@ Some developers have passionate views about workflow (see comment threads in som
 * People, communication, documentation
 
 </td><td>
+
 
 
 
@@ -1746,8 +1725,6 @@ Here are a few things you might want to do to keep your code safe
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
 ![Slide 101]()
@@ -1756,24 +1733,14 @@ Here are a few things you might want to do to keep your code safe
 
 ### Productivity Helpers
 
-</td></tr>
-
-<!--
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Productivity Tips
-
-* Cache your password
-* Set up special configs (example: line endings)
-* Create saved replies
-* Link to specific line number on GitHub
+My second recommendation is to use productivity helpers
+* Password caching
+* Closing issues via commit messages by using keywords
+* Saved replies
+* Link to specific line numbers on GitHub
 
 </td></tr>
--->
+
 
 <tr><td width="30%">
 
@@ -1837,6 +1804,8 @@ My last but not least recommendation is that you become a contributor to the Dja
 </td></tr>
 
 
+
+
 <tr><td width="30%">
 
 ![Slide 106]()
@@ -1846,6 +1815,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 ### Debunking Myths
 
 </td></tr>
+
 
 
 <tr><td width="30%">
@@ -1876,27 +1846,16 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 ### Prerequisites for Getting Started
 
-</td></tr>
-
-<!--
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Prerequisites for Getting Started
-
 * Create a free [GitHub](https://github.com) account online
 * Install Git on your computer and set your email and username
-* Find and open your computer terminal (a.k.a. command line) on your computer
-* The ability to navigate via terminal would be helpful (I will give a few helpful commands in the Useful Resources section)
+* Find and open your command line (a.k.a. terminal) on your computer
+* Be able to navigate via command line (See Bash commands)
 * You might also want to have a text editor of your choice installed, to use to edit files
-
 You will find documentation for all of these things in the Useful Resources section.
 
 </td></tr>
--->
+
+
 
 
 <tr><td width="30%">
@@ -1918,21 +1877,9 @@ You will find documentation for all of these things in the Useful Resources sect
 
 ### Getting Help
 
-</td></tr>
-
-
-<!--
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Getting Help
-
-* Help via Git, GitHub Help and Guides (links in Useful Resources Section)
+* Help via Git, GitHub Help and Guides  (links in Useful Resources Section)
+* Help via command line (exit by typing “q”)
 * Help via GitHub Keyboard Shortcuts (type "?")
-* Help via command line (exit by typing "q")
 
 ```bash
 $ git help <verb>
@@ -1947,7 +1894,8 @@ $ man git-clone
 ```
 
 </td></tr>
--->
+
+
 
 
 <tr><td width="30%">
@@ -1995,7 +1943,6 @@ Advanced workflow
 * [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
 
 http://opensourcesurvey.org/2017/#insights
-http://opensourcesurvey.org/2017/
 -->
 
 
@@ -2038,6 +1985,10 @@ GitHub Learning Resources
 GitHub Open Source Guides
 * [Open Source Guides](https://opensource.guide)
 * [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
+
+<!--
+http://opensourcesurvey.org/2017/#insights
+-->
 
 Writing and Formatting
 * [Getting Started with Writing and Formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github)
