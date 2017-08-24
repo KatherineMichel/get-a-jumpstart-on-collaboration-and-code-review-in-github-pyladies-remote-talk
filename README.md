@@ -1491,6 +1491,7 @@ $ git push <remote-name> :<branch-name>
 </td><td>
 
 
+
 <tr><td width="30%">
 
 ![Slide 88]()
@@ -1498,6 +1499,8 @@ $ git push <remote-name> :<branch-name>
 </td><td>
 
 ### GitHub Flow
+
+The workflow we have been using is basically GitHub Flow. It consists of merging pull requests into a master branch, which, in the cast of DjangoCon US website, deploys directly to the live site. 
 
 </td><td>
 
@@ -1510,7 +1513,10 @@ $ git push <remote-name> :<branch-name>
 
 ### Another Workflow
 
+Some projects use both a master and develop branch. For example, in a mission critical project with a high volume of users, pull requests might be merged into the develop branch, where the development is done. The develop branch might deploy to a staging site where the changes can be tested. The develop branch will be merged into the master branch when the recent changes are ready to deploy live. 
+
 </td><td>
+
 
 
 <tr><td width="30%">
@@ -1524,6 +1530,7 @@ $ git push <remote-name> :<branch-name>
 </td><td>
 
 
+
 <tr><td width="30%">
 
 ![Slide 91]()
@@ -1532,8 +1539,14 @@ $ git push <remote-name> :<branch-name>
 
 ### Learn More About Workflow
 
-</td><td>
+Some developers have passionate views about workflow (see comment threads in some posts). Sometimes people ask, “Which is the best workflow?” There is not really a “best” workflow. You should use the workflow that fits what you are trying to accomplish. They all have pros and cons. 
+* Git Flow (basically, what we’ve been using)
+* A Successful Git Branching Model (more advanced)
+* A Successful Git Branching Model Considered Harmful (alternative view)
+* SemVer
+* See also: Atlassian and GitLab docs
 
+</td><td>
 
 
 <tr><td width="30%">
@@ -1551,6 +1564,7 @@ $ git push <remote-name> :<branch-name>
 * People, communication, documentation
 
 </td><td>
+
 
 
 <tr><td width="30%">
