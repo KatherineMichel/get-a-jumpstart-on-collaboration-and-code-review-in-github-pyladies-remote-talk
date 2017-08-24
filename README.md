@@ -1986,6 +1986,18 @@ https://git.io/v5kpy
 <hr>
 
 
+<!--
+See write permissions chart for info
+Advanced workflow
+
+* [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
+
+* [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
+
+http://opensourcesurvey.org/2017/#insights
+http://opensourcesurvey.org/2017/
+-->
+
 
 ## Useful Resources
 
@@ -2094,6 +2106,22 @@ $ cd ..
 
 <hr>
 
+<!--
+Clone (or download) the repo you have write permission to using the repo URL (this repo will be your origin)
+
+Example: clone (or download) an organizational repo (organizational repo will be "origin")
+
+```bash
+$ git clone https://github.com/<organization-name>/<repo-name>
+```
+
+Example: clone (or download) a user account repo (repo needs to have already been forked to user account, forked repo will be "origin")
+
+```bash
+$ git clone https://github.com/<user-name>/<repo-name>
+```
+-->
+
 ### Local Development
 
 ```bash
@@ -2169,6 +2197,34 @@ $ git push origin master
 
 <hr>
 
+<!--
+### Alternatively, Fetch Individual Pull Request
+
+This will only work for pull request branches, not feature branches. 
+
+Pull updates to the individual pull request into your local branch
+
+```bash
+$ git pull origin pull/<pull-request-number>/head:<branch-name>
+```
+
+Alternatively, fetch the individual pull request into your folder
+
+```bash
+$ git fetch origin pull/<pull-request-number>/head:<branch-name>
+```
+
+Example
+
+```bash
+$ git fetch origin pull/1/head:patch-1
+```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+-->
+
 ### Delete a Branch
 
 Delete local branch
@@ -2193,19 +2249,6 @@ $ git push <remote-name> :<branch-name>
 
 <hr>
 
-### Add, Commit, Create a Message
-
-```bash
-$ git checkout <branch-name>
-$ git add .
-$ git commit -m "Your note"
-```
-
-:top: <sub>[**back to top**](#table-of-contents)</sub>
-
-<hr>
-
-
 <!--
 ## Alternative Branch Commands
 
@@ -2228,7 +2271,27 @@ If not checked out in the branch you are branching off of (need to specify which
 ```bash
 $ git checkout -b <branch-name> <branch-branching-off-of>
 ```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
 -->
+
+### Add, Commit, Create a Message
+
+```bash
+$ git checkout <branch-name>
+$ git add .
+$ git commit -m "Your note"
+```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+
+
+
 
 <!--
 Merging a remote branch into a local branch
@@ -2278,7 +2341,6 @@ Push additional commits to organizational feature branch or pull request branch,
 $ git push origin <local-branch-name>:<remote-branch-name>
 ```
 
-
 Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
 
 ```bash
@@ -2292,50 +2354,9 @@ $ git merge --abort
 ```
 -->
 
+
+
 <!--
-See write permissions chart for info
-Advanced workflow
-
-* [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
-
-* [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
-
-http://opensourcesurvey.org/2017/#insights
-http://opensourcesurvey.org/2017/
-
-
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Alternatively, Fetch Individual Pull Request
-
-This will only work for pull request branches, not feature branches. 
-
-Pull updates to the individual pull request into your local branch
-
-```bash
-$ git pull origin pull/<pull-request-number>/head:<branch-name>
-```
-
-Alternatively, fetch the individual pull request into your folder
-
-```bash
-$ git fetch origin pull/<pull-request-number>/head:<branch-name>
-```
-
-Example
-
-```bash
-$ git fetch origin pull/1/head:patch-1
-```
-
-</td></tr>
-
-
 ### Adding an Upstream Remote
 ### Syncing a Fork
 
@@ -2451,26 +2472,7 @@ Merge remote-tracking branch updates with branch you are currently checked out o
 ```bash
 $ git merge <remote-name>/<branch-name>
 ```
-
-
-Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
-
-Clone (or download) the repo you have write permission to using the repo URL (this repo will be your origin)
-
-Example: clone (or download) an organizational repo (organizational repo will be "origin")
-
-```bash
-$ git clone https://github.com/<organization-name>/<repo-name>
-```
-
-Example: clone (or download) a user account repo (repo needs to have already been forked to user account, forked repo will be "origin")
-
-```bash
-$ git clone https://github.com/<user-name>/<repo-name>
-```
 -->
-
-
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
