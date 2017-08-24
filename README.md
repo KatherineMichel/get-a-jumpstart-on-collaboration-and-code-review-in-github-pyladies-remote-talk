@@ -1311,8 +1311,6 @@ This is why the pull request instructions are different.
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
 ![Slide 76](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_67.jpg)
@@ -1370,6 +1368,9 @@ $ git push origin master
 </td></tr>
 
 
+
+
+
 <tr><td width="30%">
 
 ![Slide 78]()
@@ -1388,6 +1389,8 @@ $ git push origin master
 </td><td>
 
 ### Tidy Up
+
+After you close a pull request it’s good practice to delete the feature branch in the browser and locally. There will be a button on the pull request page that you can use to delete the feature branch in the browser, or you can delete it in the branches tab. Or, you can use the third command. The first two commands are to delete the branch locally. 
 
 </td></tr>
 
