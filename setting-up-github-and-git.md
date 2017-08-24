@@ -1,6 +1,6 @@
 # Setting Up GitHub and Git
 
-Kati's session will include a short, optional (but highly valuable) pull request review exercise. To get the full benefit of the exercise, you should have a free GitHub user account and Git installed on your computer. You might want to install Git ahead of time, but you can also install Git and complete the exercise during or after the session. You might also want to consider having a text editor of your choice installed on your computer. Below are a few helpful resources. Feel free to contact Kati if you have any questions. 
+Kati's session will include a short, optional (but highly valuable) pull request review exercise. To get the full benefit of the exercise, you should have a free GitHub user account and Git installed on your computer. If you do not already have Git installed, you might want to install Git ahead of time, but you can also install Git and complete the exercise during or after the session. You might also want to consider having a text editor of your choice installed on your computer. Below are a few helpful resources. Feel free to contact Kati if you have any questions. 
 
 ## GitHub and Git Set Up Instructions
 
