@@ -1370,7 +1370,6 @@ $ git push origin master
 
 
 
-
 <tr><td width="30%">
 
 ![Slide 78]()
@@ -1391,6 +1390,10 @@ $ git push origin master
 ### Tidy Up
 
 After you close a pull request it’s good practice to delete the feature branch in the browser and locally. There will be a button on the pull request page that you can use to delete the feature branch in the browser, or you can delete it in the branches tab. Or, you can use the third command. The first two commands are to delete the branch locally. 
+
+$ git branch -d <branch-name>
+$ git branch -D <branch-name>
+$ git push <remote-name> :<branch-name>
 
 </td></tr>
 
@@ -1417,6 +1420,7 @@ After you close a pull request it’s good practice to delete the feature branch
 * Determine which collaboration approach to use (there are two)
 * Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
 * Review the two different types of pull requests as a DjangoCon US website repo maintainer
+* Additional workflow and command info 
 
 </td><td>
 
@@ -1531,6 +1535,7 @@ After you close a pull request it’s good practice to delete the feature branch
 </td><td>
 
 
+
 <tr><td width="30%">
 
 ![Slide 92]()
@@ -1538,6 +1543,12 @@ After you close a pull request it’s good practice to delete the feature branch
 </td><td>
 
 ### Section 5
+
+* Determine which collaboration approach to use (there are two)
+* Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
+* Review the two different types of pull requests as a DjangoCon US website repo maintainer
+* Additional workflow and command info
+* People, communication, documentation
 
 </td><td>
 
@@ -1599,6 +1610,8 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 </td></tr>
 
 
+
+
 <tr><td width="30%">
 
 ![Slide 98]()
@@ -1606,6 +1619,13 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 </td><td>
 
 ### Section 6
+
+* Determine which collaboration approach to use (there are two)
+* Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
+* Review the two different types of pull requests as a DjangoCon US website repo maintainer
+* Additional workflow and command info
+* People, communication, documentation
+* Recommendations
 
 </td></tr>
 
@@ -1618,7 +1638,7 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 
 ### Code Safety
 
-My second recommendation is that if you have the authority, go into a repo’s Settings, click the Branches tab
+My first recommendation is that if you have the authority, go into a repo’s Settings, click the Branches tab
 * Protect the main branch so it can’t be deleted (for example, your master branch)
 
 </td></tr>
@@ -1632,7 +1652,17 @@ My second recommendation is that if you have the authority, go into a repo’s S
 
 ### Additional Safety Considerations
 
+Here are a few things you might want to do to keep your code safe
+* Back up the repo (third-party software)
+* Enable required reviews of pull requests, for example, a review has to be done before a pull request can be merged
+* Use status checks (external)
+* Revert pull requests, if needed
+* Worst case scenario: How to recover deleted branch (link in Useful Resources section)
+* Sensitive data warning (if made public, consider compromised, immediately remove and change)
+
 </td></tr>
+
+
 
 
 <tr><td width="30%">
@@ -1696,7 +1726,14 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 </td><td>
 
-### Section 8
+### Section 7
+* Determine which collaboration approach to use (there are two)
+* Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
+* Review the two different types of pull requests as a DjangoCon US website repo maintainer
+* Additional workflow and command info
+* People, communication, documentation
+* Recommendations
+* Don’t Be Me
 
 </td></tr>
 
@@ -1719,6 +1756,15 @@ My last but not least recommendation is that you become a contributor to the Dja
 </td><td>
 
 ### Section 8
+
+* Determine which collaboration approach to use (there are two)
+* Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
+* Review the two different types of pull requests as a DjangoCon US website repo maintainer
+* Additional workflow and command info
+* People, communication, documentation
+* Recommendations
+* Don’t Be Me
+* Simulation Exercise
 
 </td></tr>
 
@@ -1778,7 +1824,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 Feel free to contact me.
 
 Useful Resources: 
-https://git.io/v5fRh
+https://git.io/v5kpy
 
 * Twitter handle: @KatiMichel
 * GitHub username: KatherineMichel
@@ -1790,6 +1836,8 @@ https://git.io/v5fRh
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
+
+
 
 ## Useful Resources
 
