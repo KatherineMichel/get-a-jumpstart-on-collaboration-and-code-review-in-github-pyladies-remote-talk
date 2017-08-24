@@ -1607,6 +1607,10 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 
 ### Communication Forums
 
+* Wikis
+* GitHub Pages/Jekyll
+* Gists
+
 </td></tr>
 
 
