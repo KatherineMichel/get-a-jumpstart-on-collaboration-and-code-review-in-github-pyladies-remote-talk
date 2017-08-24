@@ -937,9 +937,6 @@ Here's what it looks like when we use the "Shared Repository" Model
 </td></tr>
 
 
-
-
-
 <tr><td width="30%">
 
 ![Slide 53]()
@@ -947,6 +944,24 @@ Here's what it looks like when we use the "Shared Repository" Model
 </td><td>
 
 ### Bash Commands
+
+Bash commands are commands that you use in the command line to communicate directly with your computer operating system. These commands are enough to be able to use git. In the Useful Resources section, I’ve included a link to more bash commands. The other commands we are going to use are git commands.
+
+A couple useful things to know
+* Some tasks vary by operating system- check tabs at the top of GitHub articles for special OS instructions; For instance, not all command lines use a $
+* <variable> is a placeholder for the real thing
+
+Go to the home directory
+$ cd
+
+Change directory
+$ cd <directory-name>
+
+List the folders and files in a directory
+$ ls
+
+Move back a directory
+$ cd ..
 
 </td></tr>
 
@@ -1127,9 +1142,11 @@ Let's go back to the screenshot of my local development environment.
 
 ### New Branch
 
-There will now be a new branch in the repo that is your origin and a message telling you it's there. If you click on the branch tab you can choose the name of the branch to switch to the new branch. 
+There will now be a new branch in the repo that is your origin and a message telling you it's there. The branch will not be affecting anything else. It's just there. If you click on the branch tab you can choose the name of the branch to switch to the new branch. 
 
 </td></tr>
+
+
 
 
 <tr><td width="30%">
