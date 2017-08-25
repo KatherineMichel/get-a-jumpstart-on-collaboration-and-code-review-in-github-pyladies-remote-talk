@@ -476,11 +476,9 @@ This is fine, but imagine if there were multiple people all working on a repo an
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
-![Slide 19](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_17.jpg)
+![Slide 20](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_17.jpg)
 
 </td><td>
 
@@ -499,7 +497,7 @@ When you create a repo, by default you are working within a branch named master.
 
 <tr><td width="30%">
 
-![Slide 20](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_18.jpg)
+![Slide 21](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_18.jpg)
 
 </td><td>
 
@@ -507,17 +505,14 @@ When you create a repo, by default you are working within a branch named master.
 
 (Animation)
 
-Say for instance that you want to make a change in the branch, you can make a copy of the entire master branch and give it a different name. Now there are two branches, in the same repo, the master branch and a feature branch. 
+Say for instance that you want to make a change in the branch, you can make a copy of the entire master branch and give it a different name. Now there are two branches, in the same repo, the master branch and a feature branch (GitHub will also refer to a feature branch as a topic branch). 
 
 </td></tr>
 
-<!--
-Feature Branch, a.k.a. Topic Branch
--->
 
 <tr><td width="30%">
 
-![Slide 21](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_19.jpg)
+![Slide 22](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_19.jpg)
 
 </td><td>
 
@@ -532,7 +527,7 @@ You can create an unlimited number of branches and you can switch in between the
 
 <tr><td width="30%">
 
-![Slide 22](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_20.jpg)
+![Slide 23](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_20.jpg)
 
 </td><td>
 
@@ -547,7 +542,7 @@ At some point, when the feature branch author thinks it's done, a pull request w
 
 <tr><td width="30%">
 
-![Slide 23](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_21.jpg)
+![Slide 24](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_21.jpg)
 
 </td><td>
 
@@ -564,7 +559,7 @@ If the changes are accepted, they will be merged into the master branch. The mas
 
 <tr><td width="30%">
 
-![Slide 24](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_22.jpg)
+![Slide 25](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_22.jpg)
 
 </td><td>
 
@@ -577,7 +572,7 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 <tr><td width="30%">
 
-![Slide 25](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_23.jpg)
+![Slide 26](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_23.jpg)
 
 </td><td>
 
@@ -594,7 +589,7 @@ You can also create and work on branches through the command line in your local 
 
 <tr><td width="30%">
 
-![Slide 26](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_24.jpg)
+![Slide 27](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_24.jpg)
 
 </td><td>
 
@@ -613,7 +608,7 @@ You can also create and work on branches through the command line in your local 
 
 <tr><td width="30%">
 
-![Slide 27](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_25.jpg)
+![Slide 28](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_25.jpg)
 
 </td><td>
 
@@ -626,7 +621,7 @@ You can also create and work on branches through the command line in your local 
 
 <tr><td width="30%">
 
-![Slide 28](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_26.jpg)
+![Slide 29](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_26.jpg)
 
 </td><td>
 
@@ -642,7 +637,7 @@ The two different models typically correspond to the two different account types
 
 <tr><td width="30%">
 
-![Slide 29](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_27.jpg)
+![Slide 30](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_27.jpg)
 
 </td><td>
 
@@ -657,7 +652,7 @@ There are two types of accounts
 
 <tr><td width="30%">
 
-![Slide 30](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_28.jpg)
+![Slide 31](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_28.jpg)
 
 </td><td>
 
@@ -671,7 +666,7 @@ When a user has write permission to a repo, it means they can make changes direc
 
 <tr><td width="30%">
 
-![Slide 31]()
+![Slide 32]()
 
 </td><td>
 
@@ -688,7 +683,7 @@ https://help.github.com/articles/repository-permission-levels-for-an-organizatio
 
 <tr><td width="30%">
 
-![Slide 32]()
+![Slide 33]()
 
 </td><td>
 
@@ -699,14 +694,9 @@ Example: DjangoCon US website is a deployed live from the master branch and has 
 </td></tr>
 
 
-<!--
-Example: DjangoCon US website is a deployed live and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
--->
-
-
 <tr><td width="30%">
 
-![Slide 33](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_29.jpg)
+![Slide 34](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_29.jpg)
 
 </td><td>
 
@@ -720,7 +710,7 @@ First, we’ll look at the “Shared Repository” Model. A shared repository is
 
 <tr><td width="30%">
 
-![Slide 34](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_30.jpg)
+![Slide 35](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_30.jpg)
 
 </td><td>
 
@@ -735,7 +725,7 @@ The “Fork and Pull” Model is typically used in user account repos. For examp
 
 <tr><td width="30%">
 
-![Slide 35](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_31.jpg)
+![Slide 36](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_31.jpg)
 
 </td><td>
 
@@ -750,7 +740,7 @@ We've gone to the DjangoCon US website repo.
 
 <tr><td width="30%">
 
-![Slide 36](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_32.jpg)
+![Slide 37](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_32.jpg)
 
 </td><td>
 
@@ -765,7 +755,7 @@ There will be a message notifying you that it is being forked.
 
 <tr><td width="30%">
 
-![Slide 37](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_33.jpg)
+![Slide 38](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_33.jpg)
 
 </td><td>
 
@@ -778,7 +768,7 @@ There will be a message notifying you that it is being forked.
 
 <tr><td width="30%">
 
-![Slide 38](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_34.jpg)
+![Slide 39](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_34.jpg)
 
 </td><td>
 
@@ -793,7 +783,7 @@ There will be a message notifying you that it is being forked.
 
 <tr><td width="30%">
 
-![Slide 39](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_35.jpg)
+![Slide 40](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_35.jpg)
 
 </td><td>
 
@@ -809,9 +799,12 @@ There will be a message notifying you that it is being forked.
 </td></tr>
 
 
+
+
+
 <tr><td width="30%">
 
-![Slide 40]()
+![Slide 41]()
 
 </td><td>
 
@@ -822,9 +815,16 @@ It’s typical that a shared repository will be found in an organization and a f
 </td></tr>
 
 
+<!--
+### Shared Repository Model: User Account Versus Organization
+
+A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
+-->
+
+
 <tr><td width="30%">
 
-![Slide 41]()
+![Slide 42]()
 
 </td><td>
 
@@ -838,7 +838,7 @@ It’s typical that a shared repository will be found in an organization and a f
 
 <tr><td width="30%">
 
-![Slide 42]()
+![Slide 43]()
 
 </td><td>
 
@@ -850,18 +850,10 @@ It’s typical that a shared repository will be found in an organization and a f
 
 </td></tr>
 
-<!--
-### Shared Repository Model: User Account Versus Organization
-
-A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
-
-* Organizational account owners can create teams and permissions across multiple repos
-* Otherwise, the repo shared repository" settings are almost exactly the same
--->
 
 <tr><td width="30%">
 
-![Slide 43]()
+![Slide 44]()
 
 </td><td>
 
@@ -874,7 +866,7 @@ A few minutes ago, I talked about how it’s impractical to go into a file and m
 
 <tr><td width="30%">
 
-![Slide 44](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_36.jpg)
+![Slide 45](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_36.jpg)
 
 </td><td>
 
@@ -883,13 +875,12 @@ A few minutes ago, I talked about how it’s impractical to go into a file and m
 * Determine which collaboration approach to use (there are two)
 * Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
 
-
 </td></tr>
 
 
 <tr><td width="30%">
 
-![Slide 45](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_37.jpg)
+![Slide 46](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_37.jpg)
 
 </td><td>
 
@@ -902,7 +893,7 @@ I've made a couple of diagrams that I hope will give you an idea of what the pro
 
 <tr><td width="30%">
 
-![Slide 46](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_38.jpg)
+![Slide 47](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_38.jpg)
 
 </td><td>
 
@@ -917,7 +908,7 @@ I've made a couple of diagrams that I hope will give you an idea of what the pro
 
 <tr><td width="30%">
 
-![Slide 47](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_39.jpg)
+![Slide 48](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_39.jpg)
 
 </td><td>
 
@@ -934,7 +925,7 @@ Git will track some details about the project, for instance, where we cloned our
 
 <tr><td width="30%">
 
-![Slide 48](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_40.jpg)
+![Slide 49](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_40.jpg)
 
 </td><td>
 
@@ -949,7 +940,7 @@ Git will track some details about the project, for instance, where we cloned our
 
 <tr><td width="30%">
 
-![Slide 49](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_41.jpg)
+![Slide 50](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_41.jpg)
 
 </td><td>
 
@@ -964,7 +955,7 @@ Git will track some details about the project, for instance, where we cloned our
 
 <tr><td width="30%">
 
-![Slide 50](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_42.jpg)
+![Slide 51](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_42.jpg)
 
 </td><td>
 
@@ -977,7 +968,7 @@ Here's what it looks like when we use the "Shared Repository" Model
 
 <tr><td width="30%">
 
-![Slide 51](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_43.jpg)
+![Slide 52](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_43.jpg)
 
 </td><td>
 
@@ -993,7 +984,7 @@ Here's what it looks like when we use the "Shared Repository" Model
 
 <tr><td width="30%">
 
-![Slide 52](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_44.jpg)
+![Slide 53](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_44.jpg)
 
 </td><td>
 
@@ -1007,9 +998,11 @@ Here's what it looks like when we use the "Shared Repository" Model
 </td></tr>
 
 
+
+
 <tr><td width="30%">
 
-![Slide 53]()
+![Slide 54]()
 
 </td><td>
 
