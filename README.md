@@ -141,7 +141,6 @@ PyLadies and PyLadies Remote
 - [Sandboxing](#sandboxing)
 - [Go For It!](#go-for-it)
 - [Section 7](#section-7)
-
 - [Debunking Myths](#debunking-myths)
 - [Section 8](#section-8)
 - [Prerequisites for Getting Started](#prerequisites-for-getting-started)
@@ -186,7 +185,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 
 <tr><td width="30%">
 
-![Slide 3](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_2.jpg)
+![Slide 3]()
 
 </td><td>
 
@@ -203,7 +202,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 
 <tr><td width="30%">
 
-![Slide 4](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_3.jpg)
+![Slide 4](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_2.jpg)
 
 </td><td>
 
@@ -266,7 +265,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 
 <tr><td width="30%">
 
-![Slide 6](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_4.jpg)
+![Slide 6](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_3.jpg)
 
 </td><td>
 
@@ -282,7 +281,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 
 <tr><td width="30%">
 
-![Slide 7](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_5.jpg)
+![Slide 7](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_4.jpg)
 
 </td><td>
 
@@ -295,7 +294,7 @@ One sentence in the project information that had a huge impact on me: "Are You N
 
 <tr><td width="30%">
 
-![Slide 7](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_5.jpg)
+![Slide 8](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_5.jpg)
 
 </td><td>
 
@@ -306,21 +305,9 @@ That was me. I became very determined to contribute and submitted my first pull 
 </td></tr>
 
 
-<!--
 <tr><td width="30%">
 
-![Slide 00]()
-
-</td><td>
-
-### Don't Be Me
-
-</td></tr>
--->
-
-<tr><td width="30%">
-
-![Slide 8](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_6.jpg)
+![Slide 9](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_6.jpg)
 
 </td><td>
 
@@ -334,7 +321,7 @@ I kept using Git and GitHub and getting better at it. I eventually became a Djan
 
 <tr><td width="30%">
 
-![Slide 9](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_7.jpg)
+![Slide 10](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_7.jpg)
 
 </td><td>
 
@@ -347,7 +334,7 @@ GitHub is a website built on the version control software Git.
 
 <tr><td width="30%">
 
-![Slide 10](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_8.jpg)
+![Slide 11](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_8.jpg)
 
 </td><td>
 
@@ -364,7 +351,7 @@ GitHub is a social network. You can:
 
 <tr><td width="30%">
 
-![Slide 11](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_9.jpg)
+![Slide 12](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_9.jpg)
 
 </td><td>
 
@@ -377,7 +364,7 @@ But the really important part of GitHub is that users can store and work on code
 
 <tr><td width="30%">
 
-![Slide 12](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_10.jpg)
+![Slide 13](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_10.jpg)
 
 </td><td>
 
@@ -392,7 +379,7 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 <tr><td width="30%">
 
-![Slide 13](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_11.jpg)
+![Slide 14](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_11.jpg)
 
 </td><td>
 
@@ -407,7 +394,7 @@ If you click on the hyperlink, it will open up the repo and you will see the fol
 
 <tr><td width="30%">
 
-![Slide 14](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_12.jpg)
+![Slide 15](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_12.jpg)
 
 </td><td>
 
@@ -425,7 +412,7 @@ When we are working on code, we can't do everything in the GitHub website.
 
 <tr><td width="30%">
 
-![Slide 15](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_13.jpg)
+![Slide 16](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_13.jpg)
 
 </td><td>
 
@@ -440,7 +427,7 @@ When we are working on code, we can't do everything in the GitHub website.
 
 <tr><td width="30%">
 
-![Slide 16](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_14.jpg)
+![Slide 17](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_14.jpg)
 
 </td><td>
 
@@ -458,7 +445,7 @@ I will elaborate on this process later.
 
 <tr><td width="30%">
 
-![Slide 17](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_15.jpg)
+![Slide 18](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_15.jpg)
 
 </td><td>
 
@@ -476,7 +463,7 @@ In order to be able to increase your level of responsibility, we need to have th
 
 <tr><td width="30%">
 
-![Slide 18](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_16.jpg)
+![Slide 19](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_16.jpg)
 
 </td><td>
 
@@ -487,6 +474,8 @@ This is fine, but imagine if there were multiple people all working on a repo an
 * There is a way to make changes that enables you to switch between multiple tasks the way that you need to to collaborate and do code review.
 
 </td></tr>
+
+
 
 
 <tr><td width="30%">
