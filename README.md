@@ -2211,11 +2211,15 @@ $ git checkout -b <branch-name> <branch-branching-off-of>
 
 ### Add, Commit, Create a Message
 
-```bash
+<!--
 $ git checkout <branch-name>
+-->
+
+```bash
 $ git add .
 $ git commit -m "Your note"
 ```
+
 
 <!--
 ### Pulling Versus Fetching and Merging
@@ -2322,14 +2326,6 @@ Add a remote
 
 ```bash
 $ git remote add <remote-name> <remote-url>
-```
-
-Verify existing remote repository
-
-```bash
-$ git remote -v
-origin  https://github.com/your-username/your-fork (fetch)
-origin  https://github.com/your-username/your-fork (push)
 ```
 
 Add upstream remote repository that will be synced with the fork
