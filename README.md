@@ -216,6 +216,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 </td></tr>
 
 
+<!--
 <tr><td width="30%">
 
 ![Slide 4]()
@@ -227,7 +228,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 After I teach you the process, you will have the opportunity to apply the learning through a simulation. I think something that discourages people from becoming a maintainer and reviewing pull requests is that they are afraid of making a mistake in front of other people. Anyone who is interested can have you own repo where you can practice. There will be a pull request there that you can go through the process of reviewing. I highly recommend doing this. It gives you the opportunity to practice without being under pressure. Your repos will remain there indefinitely, so you can learn at your own pace. There may be other people who are attending this livecast who can help, and you can contact me if you need help. 
 
 </td></tr>
-
+-->
 
 <tr><td width="30%">
 
@@ -270,6 +271,18 @@ That was me. I became very determined to contribute and submitted my first pull 
 
 </td></tr>
 
+
+<!--
+<tr><td width="30%">
+
+![Slide 00]()
+
+</td><td>
+
+### Don't Be Me
+
+</td></tr>
+-->
 
 <tr><td width="30%">
 
@@ -664,17 +677,7 @@ Example: DjangoCon US website is a deployed live from the master branch and has 
 
 
 <!--
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-### Why We Need Write Permission
-
 Example: DjangoCon US website is a deployed live and has a fairly high volume of traffic. We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
-
-</td></tr>
 -->
 
 
@@ -825,26 +828,12 @@ It’s typical that a shared repository will be found in an organization and a f
 </td></tr>
 
 <!--
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
-<tr><td width="30%">
-
-![Slide 00]()
-
-</td><td>
-
 ### Shared Repository Model: User Account Versus Organization
 
 A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
 
 * Organizational account owners can create teams and permissions across multiple repos
 * Otherwise, the repo shared repository" settings are almost exactly the same
-
-</td></tr>
 -->
 
 <tr><td width="30%">
@@ -1914,8 +1903,6 @@ $ man git-clone
 ```
 
 </td></tr>
-
-
 
 
 <tr><td width="30%">
