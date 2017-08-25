@@ -2107,22 +2107,19 @@ $ git checkout -b <branch-name> master
 $ git pull https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-
-
-Push additional commits (contributor needs to have given permission, and local branch name and remote branch name need to match)
+Push additional commits to forked repo feature branch or pull request branch (contributor needs to have given permission, and local branch name and remote branch name need to match)
 
 
 ```bash
 $ git push https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-Push additional commits to forked repo feature branch or pull request branch, if local branch name is different than pull request branch name
+Push additional commits to forked repo feature branch or pull request branch, if local branch name is different than pull request branch name (contributor needs to have given permission)
 
 
 ```bash
 $ git push https://github.com/<user-name>/<repo-name> <local-branch-name>:<remote-branch-name>
 ```
-
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
@@ -2139,7 +2136,6 @@ $ git push origin master
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
 
 ### Alternatively, Fetch Individual Pull Request
 
@@ -2165,7 +2161,6 @@ $ git push origin patch-1
 
 <hr>
 
-
 ### Delete a Branch
 
 Delete local branch
@@ -2189,7 +2184,6 @@ $ git push <remote-name> :<branch-name>
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
 
 ## Common Branch Commands
 
@@ -2232,6 +2226,61 @@ $ git commit -m "Your note"
 
 
 <!--
+## Adding an Upstream Remote and Syncing a Fork
+
+
+The git remote add command takes two arguments:
+* A remote name, for example, upstream (you will be using this name in commands to refer to the remote)
+* A remote URL, for example, https://github.com/upstream-username/original-repository
+
+Add a remote
+
+```bash
+$ git remote add <remote-name> <remote-url>
+```
+
+Verify existing remote repository
+
+```bash
+$ git remote -v
+origin  https://github.com/your-username/your-fork (fetch)
+origin  https://github.com/your-username/your-fork (push)
+```
+
+Add upstream remote repository that will be synced with the fork
+
+```bash
+$ git remote add upstream https://github.com/upstream-username/original-repository.git
+```
+
+Verify new upstream remote (can only push to upstream if have write permission)
+
+```bash
+$ git remote -v
+origin  https://github.com/your-username/your-fork (fetch)
+origin  https://github.com/your-username/your-fork (push)
+upstream  https://github.com/upstream-username/original-repository (fetch)
+upstream  https://github.com/upstream-username/original-repository (push)
+```
+
+
+Upstream example (syncing a fork)
+
+```bash
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+```
+
+Push the changes to your corresponding branch in the forked repository in GitHub
+
+```bash
+$ git push origin master
+```
+
+
+
+
 Merging a remote branch into a local branch
 
 $ git pull origin master
@@ -2278,73 +2327,10 @@ $ git merge --abort
 
 
 <!--
-### Adding an Upstream Remote
-### Syncing a Fork
-
-The git remote add command takes two arguments:
-* A remote name, for example, upstream (you will be using this name in commands to refer to the remote)
-* A remote URL, for example, https://github.com/upstream-username/original-repository
-
-Add a remote
-
-```bash
-$ git remote add <remote-name> <remote-url>
-```
-
-Verify existing remote repository
-
-```bash
-$ git remote -v
-origin  https://github.com/your-username/your-fork (fetch)
-origin  https://github.com/your-username/your-fork (push)
-```
-
-Add upstream remote repository that will be synced with the fork
-
-```bash
-$ git remote add upstream https://github.com/upstream-username/original-repository.git
-```
-
-Verify new upstream remote (can only push to upstream if have write permission)
-
-```bash
-$ git remote -v
-origin  https://github.com/your-username/your-fork (fetch)
-origin  https://github.com/your-username/your-fork (push)
-upstream  https://github.com/upstream-username/original-repository (fetch)
-upstream  https://github.com/upstream-username/original-repository (push)
-```
-
-
-## Adding an Upstream Remote and Syncing a Fork
-
-
 If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
 
 You can name the additional remote something else, but upstream is the common convention.
 
-
-
-
-Add upstream remote repository that will be synced with the fork
-
-```bash
-$ git remote add upstream https://github.com/upstream-username/original-repository.git
-```
-
-Upstream example (syncing a fork)
-
-```bash
-$ git fetch upstream
-$ git checkout master
-$ git merge upstream/master
-```
-
-Push the changes to your corresponding branch in the forked repository in GitHub
-
-```bash
-$ git push origin master
-```
 
 
 Keep branches up-to-date
