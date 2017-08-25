@@ -14,6 +14,10 @@
     - [Review Forked Repo Pull Request](#review-forked-repo-pull-request)
     - [Merge Pull Request Locally and Push to Master Branch](#merge-pull-request-locally-and-push-to-master-branch)
     
+<!--
+### Alternatively, Fetch Individual Pull Request
+-->
+
 <hr>
 
 ## About
@@ -457,6 +461,9 @@ Say for instance that you want to make a change in the branch, you can make a co
 
 </td></tr>
 
+<!--
+Feature Branch, a.k.a. Topic Branch
+-->
 
 <tr><td width="30%">
 
@@ -1987,6 +1994,8 @@ GitHub Open Source Guides
 * [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
 
 <!--
+Insights, 
+Eric Survey
 http://opensourcesurvey.org/2017/#insights
 -->
 
@@ -2148,16 +2157,10 @@ $ git push origin master
 
 <hr>
 
-<!--
+
 ### Alternatively, Fetch Individual Pull Request
 
 This will only work for pull request branches, not feature branches. 
-
-Pull updates to the individual pull request into your local branch
-
-```bash
-$ git pull origin pull/<pull-request-number>/head:<branch-name>
-```
 
 Alternatively, fetch the individual pull request into your folder
 
@@ -2171,10 +2174,18 @@ Example
 $ git fetch origin pull/1/head:patch-1
 ```
 
+<!--
+Pull updates to the individual pull request into your local branch
+
+```bash
+$ git pull origin pull/<pull-request-number>/head:<branch-name>
+```
+-->
+
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
--->
+
 
 ### Delete a Branch
 
@@ -2200,24 +2211,22 @@ $ git push <remote-name> :<branch-name>
 
 <hr>
 
-<!--
-## Alternative Branch Commands
 
-If the branch already exists, just switch to a branch
+## Common Branch Commands
+
+Switching to a branch that already exists (-b is not needed, because is used to create branch)
 
 ```bash
 $ git checkout <branch-name>
 ```
 
-### Create and Switch to a Feature Branch, a.k.a. Topic Branch (note how the local files switch to the files of the branch you are checked out on)
-
-If checked out in the branch you are branching off of (do not need to specify which branch branching off of)
+Create and checkout (switch) to a branch (you are in the branch you are branching off of, or there is only one branch, so you do not need to specify which branch you are branching off of)
 
 ```bash
 $ git checkout -b <branch-name>
 ```
 
-If not checked out in the branch you are branching off of (need to specify which branch branching off of) (remember, you are branching off the branch you intend your change to be merged into)
+Create and checkout (switch) to a branch (you are not in the branch you are branching off of)
 
 ```bash
 $ git checkout -b <branch-name> <branch-branching-off-of>
@@ -2226,7 +2235,6 @@ $ git checkout -b <branch-name> <branch-branching-off-of>
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
--->
 
 ### Add, Commit, Create a Message
 
@@ -2372,8 +2380,8 @@ $ git checkout <feature-branch-name>
 $ git merge <branch-name>
 ```
 
-
 </td></tr>
+
 
 ## Adding an Upstream Remote and Syncing a Fork
 
