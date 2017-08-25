@@ -3,7 +3,8 @@
 # Table of Contents
 
 - [About](#about)
-- [Attribution](#attribution)
+- [Important Webcast Links](#important-webcast-links)
+- [Additional PyLadies Resources](#additional-pyladies-resources)
 - [Slides and Script Table of Contents](#slides-and-script-table-of-contents)
 - [Slides and Script](#slides-and-script)
 - [Useful Resources](#useful-resources)
@@ -13,7 +14,9 @@
     - [Review Shared Repo Pull Request](#review-shared-repo-pull-request)
     - [Review Forked Repo Pull Request](#review-forked-repo-pull-request)
     - [Merge Pull Request Locally and Push to Master Branch](#merge-pull-request-locally-and-push-to-master-branch)
-    
+- [Attribution](#attribution)
+- [Copyright](#copyright)
+
 <!--
 ### Alternatively, Fetch Individual Pull Request
 -->
@@ -31,22 +34,25 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 
 <hr>
 
-## PyLadies Channels
+## Important Webcast Links
+
+* ["Get a Jumpstart on Collaboration and Code Review" Webcast Link](https://www.youtube.com/watch?v=eBTLPYbVvQY)
+* [PyLadies Remote tlk.io Chat Forum](https://tlk.io/pyladiesremote)
+* [DjangoCon GitHub Repo](https://github.com/djangocon)
+* [DjangoCon U.S. 2017 Website Repo GitHub](https://github.com/djangocon/2017.djangocon.us/)
+* [Collaboration and Code Review Classroom GitHub](https://github.com/collaboration-and-code-review-classroom)
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+## Additional PyLadies Resources
 
 PyLadies and PyLadies Remote
-* [PyLadies](http://www.pyladies.com), [PyLadies GitHub](https://github.com/pyladies), [PyLadies Remote](https://tlk.io/pyladiesremote), and [PyLadies Slack](http://slackin.pyladies.com)
+* [PyLadies](http://www.pyladies.com), [PyLadies GitHub](https://github.com/pyladies), and [PyLadies Slack](http://slackin.pyladies.com)
 * [PyLadies Remote Twitter](https://twitter.com/pyladiesremote)
 * [PyLadies Remote Website GitHub](https://github.com/pyladies-remote/website)
 * [PyLadies Remote YouTube Webcasts](https://www.youtube.com/channel/UCyVogtilYlp1B1ZeFdnmDxQ)
-
-## Attribution
-
-The style of this transcript is heavily inspired by:
-
-* Ana Balica's ([Twitter](https://twitter.com/anabalica), [GitHub](https://github.com/ana-balica)) transcript of her [Humanizing among coders](https://ana-balica.github.io/2017/05/28/humanizing-among-coders/) keynote for [PyCon CZ 2016](https://cz.pycon.org/2016). 
-* Honza Javorek's ([Twitter](https://twitter.com/honzajavorek), [GitHub](https://github.com/honzajavorek)) transcript of Anna Ossowski's ([Twitter](https://twitter.com/OssAnna16), [GitHub](https://github.com/OssAnna16)) keynote [Be(Come) A Mentor! Help Others Succeed!](https://github.com/honzajavorek/become-mentor) for [PyCon CZ 2017](https://cz.pycon.org/2017/). 
-
-Thank you!
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
@@ -2376,5 +2382,20 @@ $ git merge master
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
+
+## Attribution
+
+The style of this transcript is heavily inspired by:
+
+* Ana Balica's ([Twitter](https://twitter.com/anabalica), [GitHub](https://github.com/ana-balica)) transcript of her [Humanizing among coders](https://ana-balica.github.io/2017/05/28/humanizing-among-coders/) keynote for [PyCon CZ 2016](https://cz.pycon.org/2016). 
+* Honza Javorek's ([Twitter](https://twitter.com/honzajavorek), [GitHub](https://github.com/honzajavorek)) transcript of Anna Ossowski's ([Twitter](https://twitter.com/OssAnna16), [GitHub](https://github.com/OssAnna16)) keynote [Be(Come) A Mentor! Help Others Succeed!](https://github.com/honzajavorek/become-mentor) for [PyCon CZ 2017](https://cz.pycon.org/2017/). 
+
+Thank you!
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+## Copyright
 
 © 2017 Katherine Michel. All Rights Reserved.
