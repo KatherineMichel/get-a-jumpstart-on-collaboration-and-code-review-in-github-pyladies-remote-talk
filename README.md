@@ -2217,6 +2217,7 @@ $ git add .
 $ git commit -m "Your note"
 ```
 
+<!--
 ### Pulling Versus Fetching and Merging
 
 There are two ways to fetch a pull request branch to your local development environment to run.  
@@ -2271,6 +2272,61 @@ $ git merge --abort
 
 
 <!--
+### Syncing
+
+Checkout the branch you will be merging updates into (presumably the branch already exists)
+Merge remote-tracking branch updates with branch you are currently checked out on
+
+You can fetch updates from any remote
+
+If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
+
+You can name the additional remote something else, but upstream is the common convention.
+
+
+Whichever collaborative development model you are using, you can fetch the updates from the shared repository and merge them into your local development environment. 
+
+If you are working from the "Shared Repository" Model, you are fetching from the origin. 
+
+
+
+Keep branches up-to-date
+
+Fetch new branches and commits from the remote repository to local .git folder (add a remote first, if needed), without merging them locally. The branches stored here are called remote-tracking branches.  
+
+```bash
+$ git fetch <remote-name>
+```
+
+Checkout the branch you will be merging updates into (presumably the branch already exists)
+
+```bash
+$ git checkout <branch-name>
+```
+
+Merge remote-tracking branch updates with branch you are currently checked out on
+
+```bash
+$ git merge <remote-name>/<branch-name>
+
+
+Origin example
+
+```bash
+$ git fetch origin
+$ git checkout master
+$ git merge origin/master
+```
+
+Keep feature branch up-to-date (often merging master into feature branch)
+
+```bash
+$ git checkout <feature-branch-name>
+$ git merge <branch-name>
+```
+
+
+
 ## Adding an Upstream Remote and Syncing a Fork
 
 
@@ -2322,67 +2378,6 @@ Push the changes to your corresponding branch in the forked repository in GitHub
 ```bash
 $ git push origin master
 ```
-
-
-
-
-
-<!--
-You can fetch updates from any remote
-
-If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
-
-You can name the additional remote something else, but upstream is the common convention.
-
-
-Whichever collaborative development model you are using, you can fetch the updates from the shared repository and merge them into your local development environment. 
-
-If you are working from the "Shared Repository" Model, you are fetching from the origin. 
-
-
-
-Keep branches up-to-date
-
-
-Fetch new branches and commits from the remote repository to local .git folder (add a remote first, if needed), without merging them locally. The branches stored here are called remote-tracking branches.  
-
-```bash
-$ git fetch <remote-name>
-```
-
-Checkout the branch you will be merging updates into (presumably the branch already exists)
-
-```bash
-$ git checkout <branch-name>
-```
-
-Merge remote-tracking branch updates with branch you are currently checked out on
-
-```bash
-$ git merge <remote-name>/<branch-name>
-```
-
-
-### Syncing
-
-Checkout the branch you will be merging updates into (presumably the branch already exists)
-Merge remote-tracking branch updates with branch you are currently checked out on
-
-Origin example
-
-```bash
-$ git fetch origin
-$ git checkout master
-$ git merge origin/master
-```
-
-Keep feature branch up-to-date (often merging master into feature branch)
-
-```bash
-$ git checkout <feature-branch-name>
-$ git merge <branch-name>
-```
--->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
