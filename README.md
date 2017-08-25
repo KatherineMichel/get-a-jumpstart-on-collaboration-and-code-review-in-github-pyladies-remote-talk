@@ -2324,6 +2324,8 @@ If you are working from the "Fork and Pull" Model, you are fetching from the ups
 You can name the additional remote something else, but upstream is the common convention.
 
 
+
+
 Add upstream remote repository that will be synced with the fork
 
 ```bash
@@ -2345,7 +2347,8 @@ $ git push origin master
 ```
 
 
-Keep master branch up-to-date
+Keep branches up-to-date
+
 
 Fetch new branches and commits from the remote repository to local .git folder (add a remote first, if needed), without merging them locally. The branches stored here are called remote-tracking branches.  
 
