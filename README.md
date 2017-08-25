@@ -1023,7 +1023,6 @@ What I'm going to show you now is a generic process that you can use for a share
 Let's go back to the screenshot of my local development environment. 
 * I am working in my home directory. The name of home directory is at the top of the command line, and in front of the prompt. The reason why this matters is because the repo will be cloned into the directory we are working in.
 
-
 </td></tr>
 
 
@@ -2189,7 +2188,7 @@ $ git push <remote-name> :<branch-name>
 
 <hr>
 
-## Common Branch Commands
+## Branch Commands
 
 Switching to a branch that already exists (-b is not needed, because is used to create branch)
 
@@ -2221,6 +2220,12 @@ After you have checked out (switched) to a branch
 $ git add .
 $ git commit -m "Your note"
 ```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+### Push and Pull Commands
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
@@ -2278,7 +2283,7 @@ git push https://github.com/<user-name>/<repo-name> <branch-name>
 
 <hr>
 
-## Adding an Upstream Remote and Syncing a Fork
+## Adding Upstream Remote and Syncing a Fork
 
 Add a remote
 
@@ -2322,9 +2327,7 @@ If you are working from the "Shared Repository" Model, you are fetching from the
 If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
 -->
 
-
-<!--
-Origin example
+Common origin example
 
 ```bash
 $ git fetch origin
@@ -2332,24 +2335,19 @@ $ git checkout master
 $ git merge origin/master
 ```
 
-Very common example
+Common pull and push example
 
 ```bash
 $ git pull origin master
 $ git push origin master
 ```
 
-Upstream example (syncing a fork)
+Common upstream example (including pushing changes to corresponding branch in forked repository in GitHub)
 
 ```bash
 $ git fetch upstream
 $ git checkout master
 $ git merge upstream/master
-```
-
-Push the changes to your corresponding branch in the forked repository in GitHub
-
-```bash
 $ git push origin master
 ```
 
@@ -2359,7 +2357,13 @@ Keep feature branch up-to-date (often merging master into feature branch)
 $ git checkout <feature-branch-name>
 $ git merge <branch-name>
 ```
--->
+
+Example
+
+```bash
+$ git checkout example-branch
+$ git merge master
+```
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
