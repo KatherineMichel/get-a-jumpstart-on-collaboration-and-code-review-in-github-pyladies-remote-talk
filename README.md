@@ -2217,6 +2217,51 @@ $ git add .
 $ git commit -m "Your note"
 ```
 
+### Pulling Versus Fetching and Merging
+
+There are two ways to fetch a pull request branch to your local development environment to run.  
+
+* You can fetch and merge (two separate commands)
+* Or you can pull, which combines fetching and merging into one command
+
+
+Instead, pull directly from the remote repository branch ($ git fetch + $ git merge in one command)
+
+```bash
+$ git pull <remote-name> <branch-name>
+$ git push <remote-name> <branch-name>
+```
+
+
+
+Merging a remote branch into a local branch
+
+$ git pull origin master
+$ git push origin master
+
+
+
+Pushing and pulling via remote URL (will come in handy later when we are working with pull request from a fork)
+
+```bash
+git pull https://github.com/<user-name>/<repo-name> <branch-name>
+git push https://github.com/<user-name>/<repo-name> <branch-name>
+```
+
+
+Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
+
+```bash
+$ git pull <remote-name>/<branch-name>
+```
+
+If pull remote tracking branch updates, and have a problem
+
+```bash
+$ git merge --abort
+```
+-->
+
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
@@ -2281,55 +2326,18 @@ $ git push origin master
 
 
 
-Merging a remote branch into a local branch
-
-$ git pull origin master
-$ git push origin master
-
-
-### Pulling Versus Fetching and Merging
-
-There are two ways to fetch a pull request branch to your local development environment to run.  
-
-* You can fetch and merge (two separate commands)
-* Or you can pull, which combines fetching and merging into one command
-
-
-Instead, pull directly from the remote repository branch ($ git fetch + $ git merge in one command)
-
-```bash
-$ git pull <remote-name> <branch-name>
-$ git push <remote-name> <branch-name>
-```
-
-Pushing and pulling via remote URL (will come in handy later when we are working with pull request from a fork)
-
-```bash
-git pull https://github.com/<user-name>/<repo-name> <branch-name>
-git push https://github.com/<user-name>/<repo-name> <branch-name>
-```
-
-
-
-Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
-
-```bash
-$ git pull <remote-name>/<branch-name>
-```
-
-If pull remote tracking branch updates, and have a problem
-
-```bash
-$ git merge --abort
-```
--->
-
-
 
 <!--
+You can fetch updates from any remote
+
 If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
 
 You can name the additional remote something else, but upstream is the common convention.
+
+
+Whichever collaborative development model you are using, you can fetch the updates from the shared repository and merge them into your local development environment. 
+
+If you are working from the "Shared Repository" Model, you are fetching from the origin. 
 
 
 
@@ -2356,14 +2364,6 @@ $ git merge <remote-name>/<branch-name>
 
 
 ### Syncing
-
-You can fetch updates from a remote
-
-Whichever collaborative development model you are using, you can fetch the updates from the shared repository and merge them into your local development environment. 
-
-If you are working from the "Shared Repository" Model, you are fetching from the origin. 
-
-
 
 Checkout the branch you will be merging updates into (presumably the branch already exists)
 Merge remote-tracking branch updates with branch you are currently checked out on
