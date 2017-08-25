@@ -2222,70 +2222,18 @@ $ git add .
 $ git commit -m "Your note"
 ```
 
-
-<!--
-### Pulling Versus Fetching and Merging
-
-There are two ways to fetch a pull request branch to your local development environment to run.  
-
-* You can fetch and merge (two separate commands)
-* Or you can pull, which combines fetching and merging into one command
-
-
-Instead, pull directly from the remote repository branch ($ git fetch + $ git merge in one command)
-
-```bash
-$ git pull <remote-name> <branch-name>
-$ git push <remote-name> <branch-name>
-```
-
-
-
-Merging a remote branch into a local branch
-
-$ git pull origin master
-$ git push origin master
-
-
-
-Pushing and pulling via remote URL (will come in handy later when we are working with pull request from a fork)
-
-```bash
-git pull https://github.com/<user-name>/<repo-name> <branch-name>
-git push https://github.com/<user-name>/<repo-name> <branch-name>
-```
-
-
-Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
-
-```bash
-$ git pull <remote-name>/<branch-name>
-```
-
-If pull remote tracking branch updates, and have a problem
-
-```bash
-$ git merge --abort
-```
--->
-
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
 
-
-
+### Fetching and Merging Versus Pulling
 
 
 <!--
-### Syncing Branches to Keep Them Up-to-Date
+There are two ways to fetch a pull request branch to your local development environment to run.  
 
-Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
-
-If you are working from the "Shared Repository" Model, you are fetching from the origin. 
-If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
-
-Upstream is the name commonly used for adding a shared repository as a remote for a fork.
+* You can fetch and merge (two separate commands)
+* Or you can pull, which combines fetching and merging into one command
 
 
 
@@ -2305,17 +2253,30 @@ Merge remote-tracking branch updates with branch you are currently checked out o
 
 ```bash
 $ git merge <remote-name>/<branch-name>
-
-
-Origin example
-
-```bash
-$ git fetch origin
-$ git checkout master
-$ git merge origin/master
 ```
 
 
+
+Instead, pull directly from the remote repository branch ($ git fetch + $ git merge in one command)
+
+```bash
+$ git pull <remote-name> <branch-name>
+$ git push <remote-name> <branch-name>
+```
+
+
+
+Pushing and pulling via remote URL (will come in handy later when we are working with pull request from a fork)
+
+```bash
+git pull https://github.com/<user-name>/<repo-name> <branch-name>
+git push https://github.com/<user-name>/<repo-name> <branch-name>
+```
+-->
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
 
 ## Adding an Upstream Remote and Syncing a Fork
 
@@ -2341,6 +2302,25 @@ upstream  https://github.com/upstream-username/original-repository (fetch)
 upstream  https://github.com/upstream-username/original-repository (push)
 ```
 
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+<!--
+Origin example
+
+```bash
+$ git fetch origin
+$ git checkout master
+$ git merge origin/master
+```
+
+Very common example
+
+```bash
+$ git pull origin master
+$ git push origin master
+```
 
 Upstream example (syncing a fork)
 
@@ -2356,13 +2336,26 @@ Push the changes to your corresponding branch in the forked repository in GitHub
 $ git push origin master
 ```
 
-
 Keep feature branch up-to-date (often merging master into feature branch)
 
 ```bash
 $ git checkout <feature-branch-name>
 $ git merge <branch-name>
 ```
+-->
+
+
+<!--
+Merging a remote branch into a local branch
+
+### Syncing Branches to Keep Them Up-to-Date
+
+Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
+
+If you are working from the "Shared Repository" Model, you are fetching from the origin. 
+If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
+
+Upstream is the name commonly used for adding a shared repository as a remote for a fork.
 -->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
