@@ -2090,7 +2090,11 @@ $ git checkout -b <branch-name> origin/<branch-name>
 $ git merge master
 ```
 
+
+
 Push Follow-On Commit to Shared Repo Pull Request
+
+
 
 ```bash
 $ git push origin <branch-name> 
@@ -2211,9 +2215,7 @@ $ git checkout -b <branch-name> <branch-branching-off-of>
 
 ### Add, Commit, Create a Message
 
-<!--
-$ git checkout <branch-name>
--->
+After you have checked out (switched) to a branch
 
 ```bash
 $ git add .
@@ -2316,11 +2318,6 @@ $ git merge origin/master
 
 
 ## Adding an Upstream Remote and Syncing a Fork
-
-
-The git remote add command takes two arguments:
-* A remote name, for example, upstream (you will be using this name in commands to refer to the remote)
-* A remote URL, for example, https://github.com/upstream-username/original-repository
 
 Add a remote
 
