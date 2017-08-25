@@ -2286,6 +2286,11 @@ Add a remote
 $ git remote add <remote-name> <remote-url>
 ```
 
+<!--
+Does not update automatically
+Upstream is the name commonly used for adding a shared repository as a remote for a fork.
+-->
+
 Add upstream remote repository that will be synced with the fork
 
 ```bash
@@ -2305,6 +2310,18 @@ upstream  https://github.com/upstream-username/original-repository (push)
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
+
+<!--
+Merging a remote branch into a local branch
+
+### Syncing Branches to Keep Them Up-to-Date
+
+Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
+
+If you are working from the "Shared Repository" Model, you are fetching from the origin. 
+If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
+-->
+
 
 <!--
 Origin example
@@ -2342,20 +2359,6 @@ Keep feature branch up-to-date (often merging master into feature branch)
 $ git checkout <feature-branch-name>
 $ git merge <branch-name>
 ```
--->
-
-
-<!--
-Merging a remote branch into a local branch
-
-### Syncing Branches to Keep Them Up-to-Date
-
-Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
-
-If you are working from the "Shared Repository" Model, you are fetching from the origin. 
-If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
-
-Upstream is the name commonly used for adding a shared repository as a remote for a fork.
 -->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
