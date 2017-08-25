@@ -141,6 +141,7 @@ PyLadies and PyLadies Remote
 - [Sandboxing](#sandboxing)
 - [Go For It!](#go-for-it)
 - [Section 7](#section-7)
+
 - [Debunking Myths](#debunking-myths)
 - [Section 8](#section-8)
 - [Prerequisites for Getting Started](#prerequisites-for-getting-started)
@@ -159,7 +160,7 @@ PyLadies and PyLadies Remote
 
 <tr><td width="30%">
 
-![Slide 0](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_0.jpg)
+![Slide 1](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_0.jpg)
 
 </td><td>
 
@@ -172,7 +173,7 @@ By Katherine "Kati" Michel
 
 <tr><td width="30%">
 
-![Slide 1](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_1.jpg)
+![Slide 2](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_1.jpg)
 
 </td><td>
 
@@ -185,7 +186,7 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 
 <tr><td width="30%">
 
-![Slide 2]()
+![Slide 3](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_2.jpg)
 
 </td><td>
 
@@ -202,37 +203,70 @@ Welcome, everyone. I'm Kati Michel. I'm thrilled to have the opportunity to teac
 
 <tr><td width="30%">
 
-![Slide 3](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_2.jpg)
+![Slide 4](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_3.jpg)
 
 </td><td>
 
 ### Goal
 
 * I want to teach you a process that will get you started collaborating and doing code review as quickly as possible. 
-* I'm going to be showing you a lot of screenshots and diagrams, because I want you to understand what the process looks like.
-* But don’t worry if you miss anything, because at the end of my talk, there will be a slide with a link to Useful Resources where you will find documentation and all of the commands I will be showing you today. 
-* My slides and a video of my talk will also be online later.
+* For one thing, there is more male participation than female. I want to see female participation increase. More women should be maintainers.
 
 </td></tr>
 
 
-<!--
 <tr><td width="30%">
 
-![Slide 4]()
+![Slide 5]()
 
 </td><td>
 
-### Hands On Practice
+### I Don’t Want You to Be Like Me!
 
-After I teach you the process, you will have the opportunity to apply the learning through a simulation. I think something that discourages people from becoming a maintainer and reviewing pull requests is that they are afraid of making a mistake in front of other people. Anyone who is interested can have you own repo where you can practice. There will be a pull request there that you can go through the process of reviewing. I highly recommend doing this. It gives you the opportunity to practice without being under pressure. Your repos will remain there indefinitely, so you can learn at your own pace. There may be other people who are attending this livecast who can help, and you can contact me if you need help. 
+* I wish I had taken on more responsibility sooner
+* For example, I thought that being a repo maintainer was for other people, and how it is done was a mystery to me
+* Once I became a maintainer, I learned as I went along. I made mistakes in front of people. I sometimes had to ask senior developers to explain things to me or spend time researching online. 
+* Fortunately, I have been a maintainer in an extremely supportive environment. 
+* I want all of you to benefit from my trial and error.
 
 </td></tr>
--->
+
 
 <tr><td width="30%">
 
-![Slide 5](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_3.jpg)
+![Slide 6]()
+
+</td><td>
+
+### Understanding the Process and Hands On Practice
+
+* This is a real process that you can learn and use.
+* I'm going to be showing you a lot of screenshots and diagrams, because I want you to understand what the process looks like.
+* At the end of my presentation, there will be an opportunity to practice reviewing a pull request in a no-pressure environment. 
+* I think this highly valuable, because if you learn the process first, you can be more confident to seek opportunities to collaborate and maintain. 
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 7]()
+
+</td><td>
+
+### Resources
+* If you miss anything during my talk, my slides and a replay of my talk will be online later
+* On my last slide, there will be a link to Useful Resources where you will find documentation and all of the commands I will be showing you today. 
+* If you choose to take part in the simulation exercise, your repo will remain there indefinitely so that you can practice and experiment in the future. 
+* You are welcome to contact me if you have any questions
+
+</td></tr>
+
+
+
+<tr><td width="30%">
+
+![Slide 6](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_4.jpg)
 
 </td><td>
 
@@ -248,7 +282,7 @@ After I teach you the process, you will have the opportunity to apply the learni
 
 <tr><td width="30%">
 
-![Slide 6](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_4.jpg)
+![Slide 7](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_5.jpg)
 
 </td><td>
 
