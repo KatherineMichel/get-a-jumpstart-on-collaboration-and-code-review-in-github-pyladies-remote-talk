@@ -39,7 +39,7 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 * ["Get a Jumpstart on Collaboration and Code Review" Webcast Link](https://www.youtube.com/watch?v=eBTLPYbVvQY)
 * [PyLadies Remote tlk.io Chat Forum](https://tlk.io/pyladiesremote)
 * [DjangoCon GitHub Repo](https://github.com/djangocon)
-* [DjangoCon U.S. 2017 Website Repo GitHub](https://github.com/djangocon/2017.djangocon.us/)
+* [DjangoCon U.S. 2017 Website Repo GitHub](https://github.com/djangocon/2017.djangocon.us)
 * [Collaboration and Code Review Classroom GitHub](https://github.com/collaboration-and-code-review-classroom)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
