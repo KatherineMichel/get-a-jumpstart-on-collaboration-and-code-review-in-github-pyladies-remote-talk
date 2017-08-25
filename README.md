@@ -2066,22 +2066,6 @@ $ cd ..
 
 <hr>
 
-<!--
-Clone (or download) the repo you have write permission to using the repo URL (this repo will be your origin)
-
-Example: clone (or download) an organizational repo (organizational repo will be "origin")
-
-```bash
-$ git clone https://github.com/<organization-name>/<repo-name>
-```
-
-Example: clone (or download) a user account repo (repo needs to have already been forked to user account, forked repo will be "origin")
-
-```bash
-$ git clone https://github.com/<user-name>/<repo-name>
-```
--->
-
 ### Local Development
 
 ```bash
@@ -2123,23 +2107,22 @@ $ git checkout -b <branch-name> master
 $ git pull https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-Push additional commits
 
-<!--
-(contributor needs to have given permission, and local branch name and remote branch name need to match)
--->
+
+Push additional commits (contributor needs to have given permission, and local branch name and remote branch name need to match)
+
 
 ```bash
 $ git push https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-<!--
 Push additional commits to forked repo feature branch or pull request branch, if local branch name is different than pull request branch name
--->
+
 
 ```bash
 $ git push https://github.com/<user-name>/<repo-name> <local-branch-name>:<remote-branch-name>
 ```
+
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
@@ -2263,15 +2246,9 @@ $ git push origin master
 
 There are two ways to fetch a pull request branch to your local development environment to run.  
 
-* You can fetch and merge as two separate commands
+* You can fetch and merge (two separate commands)
 * Or you can pull, which combines fetching and merging into one command
 
-
-
-```bash
-$ git pull <remote-name>
-$ git push <remote-name>
-```
 
 Instead, pull directly from the remote repository branch ($ git fetch + $ git merge in one command)
 
@@ -2287,11 +2264,7 @@ git pull https://github.com/<user-name>/<repo-name> <branch-name>
 git push https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-Push additional commits to organizational feature branch or pull request branch, if local branch name is different than pull request branch name
- 
-```bash
-$ git push origin <local-branch-name>:<remote-branch-name>
-```
+
 
 Do not pull remote tracking branch updates (defeats the purpose because you already did $ git fetch (updated remote tracking branch with remote changes), which is $ git fetch + $ git merge in one command)
 
