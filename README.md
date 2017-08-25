@@ -810,16 +810,11 @@ There will be a message notifying you that it is being forked.
 
 ### Interesting Thing #1: Opposites
 
-It’s typical that a shared repository will be found in an organization and a fork will be found in a user account. However, it can be the other way around, it’s just not nearly as common. I think it’s interesting to know that a repo can be forked into an organization account and a user account can have a shared repository. 
+It’s typical that a shared repository will be found in an organization and a fork will be found in a user account. However, it can be the other way around, it’s just not nearly as common. A repo can be forked into an organization account and user account owner can make a user account repo a shared repo by inviting other users to be collaborators on the repo. 
+
+* But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
 
 </td></tr>
-
-
-<!--
-### Shared Repository Model: User Account Versus Organization
-
-A user account repo can be a shared repository. A user account owner can invite other users to collaborate on a repo that he or she owns. But there are a few advantages to using a organizational repo as a shared repository instead of an user account repo. 
--->
 
 
 <tr><td width="30%">
