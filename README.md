@@ -2145,25 +2145,21 @@ $ git push origin master
 
 This will only work for pull request branches, not feature branches. 
 
-Alternatively, fetch the individual pull request into your folder
+Fetch the individual pull request, checkout the branch, add and commit changes, push changes to the branch
 
 ```bash
 $ git fetch origin pull/<pull-request-number>/head:<branch-name>
+$ git checkout <branch-name>
+$ git push <remote-name> <branch-name>
 ```
 
 Example
 
 ```bash
 $ git fetch origin pull/1/head:patch-1
+$ git checkout patch-1
+$ git push origin patch-1
 ```
-
-<!--
-Pull updates to the individual pull request into your local branch
-
-```bash
-$ git pull origin pull/<pull-request-number>/head:<branch-name>
-```
--->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
