@@ -35,9 +35,6 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 
 PyLadies and PyLadies Remote
 * [PyLadies](http://www.pyladies.com), [PyLadies GitHub](https://github.com/pyladies), [PyLadies Remote](https://tlk.io/pyladiesremote), and [PyLadies Slack](http://slackin.pyladies.com)
-* [PyLadies Website GitHub](https://github.com/pyladies/pyladies)
-* [PyLadies Blog GitHub](https://github.com/pyladies/pyladies-blog)
-* [PyLadies Maintainers GitHub](https://github.com/pyladies/pyladies-maintainers)
 * [PyLadies Remote Twitter](https://twitter.com/pyladiesremote)
 * [PyLadies Remote Website GitHub](https://github.com/pyladies-remote/website)
 * [PyLadies Remote YouTube Webcasts](https://www.youtube.com/channel/UCyVogtilYlp1B1ZeFdnmDxQ)
