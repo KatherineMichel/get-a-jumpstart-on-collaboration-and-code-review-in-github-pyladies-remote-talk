@@ -799,9 +799,6 @@ There will be a message notifying you that it is being forked.
 </td></tr>
 
 
-
-
-
 <tr><td width="30%">
 
 ![Slide 41]()
@@ -993,8 +990,6 @@ Here's what it looks like when we use the "Shared Repository" Model
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
 ![Slide 54]()
@@ -1003,7 +998,7 @@ Here's what it looks like when we use the "Shared Repository" Model
 
 ### Bash Commands
 
-Bash commands are commands that you use in the command line to communicate directly with your computer operating system. These commands are enough to be able to use git. In the Useful Resources section, I’ve included a link to more bash commands. The other commands we are going to use are git commands.
+Bash commands are commands that you use in the command line to communicate directly with your computer operating system. The commands below are enough to be able to use git. In the Useful Resources section, I’ve included a link to more bash commands. The other commands we are going to use in this talk are git commands.
 
 A couple useful things to know
 * Some tasks vary by operating system- check tabs at the top of GitHub articles for special OS instructions; For instance, not all command lines use a $
@@ -1015,18 +1010,18 @@ $ cd
 Change directory
 $ cd <directory-name>
 
-List the folders and files in a directory
-$ ls
-
 Move back a directory
 $ cd ..
+
+List the folders and files in a directory
+$ ls
 
 </td></tr>
 
 
 <tr><td width="30%">
 
-![Slide 54](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_45.jpg)
+![Slide 55](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_45.jpg)
 
 </td><td>
 
@@ -1042,7 +1037,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 55](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_46.jpg)
+![Slide 56](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_46.jpg)
 
 </td><td>
 
@@ -1057,7 +1052,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 56](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_47.jpg)
+![Slide 57](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_47.jpg)
 
 </td><td>
 
@@ -1073,7 +1068,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 57](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_48.jpg)
+![Slide 58](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_48.jpg)
 
 </td><td>
 
@@ -1088,7 +1083,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 58](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_49.jpg)
+![Slide 59](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_49.jpg)
 
 </td><td>
 
@@ -1103,7 +1098,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 59](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_50.jpg)
+![Slide 60](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_50.jpg)
 
 </td><td>
 
@@ -1118,7 +1113,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 60](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_51.jpg)
+![Slide 61](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_51.jpg)
 
 </td><td>
 
@@ -1133,7 +1128,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 61](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_52.jpg)
+![Slide 62](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_52.jpg)
 
 </td><td>
 
@@ -1148,7 +1143,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 62](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_53.jpg)
+![Slide 63](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_53.jpg)
 
 </td><td>
 
@@ -1163,7 +1158,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 63](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_54.jpg)
+![Slide 64](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_54.jpg)
 
 </td><td>
 
@@ -1178,7 +1173,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 64](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_55.jpg)
+![Slide 65](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_55.jpg)
 
 </td><td>
 
@@ -1193,7 +1188,7 @@ Let's go back to the screenshot of my local development environment.
 
 <tr><td width="30%">
 
-![Slide 65](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_56.jpg)
+![Slide 66](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_56.jpg)
 
 </td><td>
 
@@ -1206,7 +1201,7 @@ There will now be a new branch in the repo that is your origin and a message tel
 
 <tr><td width="30%">
 
-![Slide 66](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_57.jpg)
+![Slide 67](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_57.jpg)
 
 </td><td>
 
@@ -1221,7 +1216,7 @@ You can toggle back and forth between the branches by clicking on the branches i
 
 <tr><td width="30%">
 
-![Slide 67](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_58.jpg)
+![Slide 68](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_58.jpg)
 
 </td><td>
 
@@ -1234,7 +1229,7 @@ Go to the repo you want your pull request to be merged into, in this case, the D
 
 <tr><td width="30%">
 
-![Slide 68](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_59.jpg)
+![Slide 69](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_59.jpg)
 
 </td><td>
 
@@ -1254,7 +1249,7 @@ Go to the repo you want your pull request to be merged into, in this case, the D
 
 <tr><td width="30%">
 
-![Slide 69](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_60.jpg)
+![Slide 70](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_60.jpg)
 
 </td><td>
 
@@ -1269,7 +1264,7 @@ Go to the repo you want your pull request to be merged into, in this case, the D
 
 <tr><td width="30%">
 
-![Slide 70](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_61.jpg)
+![Slide 71](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_61.jpg)
 
 </td><td>
 
@@ -1284,7 +1279,7 @@ Go to the repo you want your pull request to be merged into, in this case, the D
 
 <tr><td width="30%">
 
-![Slide 71](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_62.jpg)
+![Slide 72](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_62.jpg)
 
 </td><td>
 
@@ -1301,7 +1296,7 @@ Underneath that will be info about how to merge the pull request.
 
 <tr><td width="30%">
 
-![Slide 72](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_63.jpg)
+![Slide 73](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_63.jpg)
 
 </td><td>
 
@@ -1316,7 +1311,7 @@ I will go over that in a minute.
 
 <tr><td width="30%">
 
-![Slide 73](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_64.jpg)
+![Slide 74](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_64.jpg)
 
 </td><td>
 
@@ -1333,7 +1328,7 @@ The first two options involve clicking the merge button in GitHub without runnin
 
 <tr><td width="30%">
 
-![Slide 74](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_65.jpg)
+![Slide 75](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_65.jpg)
 
 </td><td>
 
@@ -1354,7 +1349,7 @@ If a change needs to be made, you can
 
 <tr><td width="30%">
 
-![Slide 75](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_66.jpg)
+![Slide 76](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_66.jpg)
 
 </td><td>
 
@@ -1370,7 +1365,7 @@ This is why the pull request instructions are different.
 
 <tr><td width="30%">
 
-![Slide 76](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_67.jpg)
+![Slide 77](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_67.jpg)
 
 </td><td>
 
@@ -1406,7 +1401,7 @@ $ git push https://github.com/<user-name>/<repo-name> <branch-name>
 
 <tr><td width="30%">
 
-![Slide 77](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_68.jpg)
+![Slide 78](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_68.jpg)
 
 </td><td>
 
@@ -1423,6 +1418,7 @@ $ git push origin master
 ```
 
 </td></tr>
+
 
 
 
@@ -1953,6 +1949,10 @@ https://git.io/v5kpy
 
 
 <!--
+When you make progress, I'd love to know about it. Send me a note.
+
+In the Useful Resources section, I’ve included a link to more bash commands. 
+
 See write permissions chart for info
 Advanced workflow
 
@@ -1968,7 +1968,7 @@ http://opensourcesurvey.org/2017/#insights
 
 ### Links
 
-GitHub and Bitbucket
+GitHub
 * [GitHub](https://github.com)
 
 Getting Set Up
@@ -2061,16 +2061,16 @@ Change directory
 $ cd <folder-name>
 ```
 
-List the folders and files in a directory
-
-```bash
-$ ls
-```
-
 Move back a directory
 
 ```bash
 $ cd ..
+```
+
+List the folders and files in a directory
+
+```bash
+$ ls
 ```
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
