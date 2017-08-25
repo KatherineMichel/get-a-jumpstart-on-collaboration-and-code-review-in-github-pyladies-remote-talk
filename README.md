@@ -2255,15 +2255,8 @@ $ git commit -m "Your note"
 <!--
 Merging a remote branch into a local branch
 
-git pull origin <branch-name>
-
 $ git pull origin master
 $ git push origin master
-
-Pull in the changes from the remote branch
-
-$ git pull https://github.com/upstream-username/original-repository <branch-name>
-
 
 
 ### Pulling Versus Fetching and Merging
