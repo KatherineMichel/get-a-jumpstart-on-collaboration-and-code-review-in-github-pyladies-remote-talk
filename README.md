@@ -1441,8 +1441,6 @@ $ git push <remote-name> :<branch-name>
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
 ![Slide 82]()
@@ -1451,8 +1449,13 @@ $ git push <remote-name> :<branch-name>
 
 ### Advanced Topics
 
-</td></tr>
+* Rebase
+* Interactive rebase
+* Merge conflicts
+* Aliases
+* Fetch individual pull request branches (commands in Useful Resources section)
 
+</td></tr>
 
 
 <tr><td width="30%">
@@ -1469,6 +1472,8 @@ $ git push <remote-name> :<branch-name>
 * Additional workflow and command info 
 
 </td><td>
+
+
 
 
 <tr><td width="30%">
@@ -1821,9 +1826,10 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 
 
+
 <tr><td width="30%">
 
-![Slide 107]()
+![Slide 113]()
 
 </td><td>
 
@@ -1843,7 +1849,18 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 108]()
+![Slide 114]()
+
+</td><td>
+
+### Simulation Exercise
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 115]()
 
 </td><td>
 
@@ -1859,22 +1876,9 @@ You will find documentation for all of these things in the Useful Resources sect
 </td></tr>
 
 
-
-
 <tr><td width="30%">
 
-![Slide 109]()
-
-</td><td>
-
-### Browser, Desktop, Command Line
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 110]()
+![Slide 116]()
 
 </td><td>
 
@@ -1901,18 +1905,7 @@ $ man git-clone
 
 <tr><td width="30%">
 
-![Slide 111]()
-
-</td><td>
-
-### Organization and Repo Tour
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 112](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_75.jpg)
+![Slide 117](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_75.jpg)
 
 </td><td>
 
