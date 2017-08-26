@@ -25,6 +25,10 @@
 - [Attribution](#attribution)
 - [Copyright](#copyright)
 
+<!--
+### Alternatively, Fetch Individual Pull Request
+-->
+
 <hr>
 
 ## About
@@ -68,7 +72,9 @@ PyLadies and PyLadies Remote
 - [Welcome](#welcome)
 - [About Me](#about-me)
 - [Goal](#goal)
-- [Hands On Practice](#hands-on-practice)
+- [I Don’t Want You to Be Like Me!](#i-dont-want-you-to-be-like-me)
+- [Understanding the Process and Hands On Practice](#understanding-the-process-and-hands-on-practice)
+- [Resources](#resources)
 - [Announcing TacoFancy](#announcing-tacofancy)
 - [The One Sentence that Motivated Me to Start Using GitHub](#the-one-sentence-that-motivated-me-to-start-using-github)
 - [My First Pull Request](#my-first-pull-request)
@@ -76,7 +82,7 @@ PyLadies and PyLadies Remote
 - [What are Git and GitHub?](#what-are-git-and-github)
 - [Social Network](#social-network)
 - [Repositories](#repositories)
-- [Local Development Environment](#local-development-environment)
+- [Local Development Environment Example](#local-development-environment-example)
 - [Collaboration and Code Review Best Practice Workflow](#collaboration-and-code-review-best-practice-workflow)
 - [Working on a File in GitHub](#working-on-a-file-in-github)
 - [Branches](#branches)
@@ -99,7 +105,7 @@ PyLadies and PyLadies Remote
 - [Fork and Pull Model](#fork-and-pull-model)
 - [Shared Repository Model](#shared-repository-model)
 - [Bash Commands](#bash-commands)
-- [Local Dev Environment](#local-dev-environment)
+- [Local Development Environment](#local-development-environment)
 - [Cloning](#cloning)
 - [Changing Directory](#changing-directory)
 - [GitHub Repo Versus Local Directory](#github-repo-versus-local-directory)
@@ -117,7 +123,6 @@ PyLadies and PyLadies Remote
 - [Pull Request Branches](#pull-request-branches)
 - [Pull Request Review](#pull-request-review)
 - [Merging](#merging)
-- [Merge Conflict](#merge-conflict)
 - [Tidy Up](#tidy-up)
 - [Advanced Topics](#advanced-topics)
 - [Section 4](#section-4)
@@ -412,7 +417,7 @@ When we are working on code, we can't do everything in the GitHub website.
 
 </td><td>
 
-### Local Dev Environment
+### Local Development Environment Example
 
 (Animation)
 
@@ -427,7 +432,7 @@ When we are working on code, we can't do everything in the GitHub website.
 
 </td><td>
 
-### Local Dev Environment
+### Local Development Environment Example
 
 (Animation)
 
@@ -1535,6 +1540,10 @@ Some developers have passionate views about workflow (see comment threads in som
 * SemVer
 * See also: Atlassian and GitLab docs  (you can also find insights in the docs of other software built on top of Git)
 
+http://nvie.com/posts/a-successful-git-branching-model
+https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful
+http://semver.org
+
 </td><td>
 
 
@@ -1565,6 +1574,9 @@ Some developers have passionate views about workflow (see comment threads in som
 
 ### Getting to 10x Results
 
+https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef
+http://opensourcesurvey.org/2017/#insights
+
 </td><td>
 
 
@@ -1590,6 +1602,11 @@ I hope that you will make your project documentation and attitude toward communi
 ### Documentation
 
 I recommend that you go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation and read it. 
+
+https://github.com/djangocon/2017.djangocon.us/blob/master/README.md
+https://github.com/djangocon/2017.djangocon.us/blob/master/LICENSE
+https://github.com/djangocon/2017.djangocon.us/blob/master/CODE_OF_CONDUCT.md
+https://github.com/djangocon/2017.djangocon.us/blob/master/CONTRIBUTING.md
 
 </td></tr>
 
@@ -1845,7 +1862,7 @@ $ man git-clone
 
 ### Thank You
 
-Feel free to contact me.
+Feel free to contact me. If you make progress based on my talk, I'd love to know. Send me a note if you get the chance.
 
 Useful Resources: 
 https://git.io/v5kpy
@@ -1860,25 +1877,6 @@ https://git.io/v5kpy
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
-
-
-
-<!--
-When you make progress, I'd love to know about it. Send me a note.
-
-In the Useful Resources section, I’ve included a link to more bash commands. 
-
-See write permissions chart for info
-Advanced workflow
-
-* [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
-
-* [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
-
-http://opensourcesurvey.org/2017/#insights
--->
-
 
 ## Useful Resources
 
@@ -1917,22 +1915,8 @@ GitHub Learning Resources
 * [Git and GitHub Learning Resources](https://help.github.com/articles/git-and-github-learning-resources)
 
 GitHub Open Source Guides
-* [Open Source Guides](https://opensource.guide)
+* [Open Source Guide](https://opensource.guide)
 * [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
-
-<!--
-Insights, 
-Eric Survey
-http://opensourcesurvey.org/2017/#insights
--->
-
-Writing and Formatting
-* [Getting Started with Writing and Formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github)
-* [Working with Advanced Formatting](https://help.github.com/articles/working-with-advanced-formatting)
-
-Setting Up and Maintaining Teams
-* [Setting Up Teams](https://help.github.com/articles/setting-up-teams)
-* [Maintaining Teams](https://help.github.com/articles/maintaining-teams)
 
 Collaborative Development Models and Permission Levels
 * [About Collaborative Development Models](https://help.github.com/articles/about-collaborative-development-models)
@@ -1951,7 +1935,11 @@ Advanced Collaborative Development Workflow Examples
 * [A Successful Git Branching Model Considered Harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful)
 * [SemVer](http://semver.org) (subtopic)
 
-* [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
+* [Open Source Guide Insights](http://opensourcesurvey.org/2017/#insights)
+
+<!-- 
+Eric Survey
+-->
 
 Documentation
 * [DjangoCon US Website README.md](https://github.com/djangocon/2017.djangocon.us/blob/master/README.md)
@@ -1959,20 +1947,30 @@ Documentation
 * [DjangoCon US Website CODE_OF_CONDUCT.md](https://github.com/djangocon/2017.djangocon.us/blob/master/CODE_OF_CONDUCT.md)
 * [DjangoCon US Website CONTRIBUTING.md](https://github.com/djangocon/2017.djangocon.us/blob/master/CONTRIBUTING.md)
 
+GitHub Documentation Resources
+* [About READMEs](https://help.github.com/articles/about-readmes)
+* [Licensing a Repository](https://help.github.com/articles/licensing-a-repository)
+* [Adding a License to a Repository](https://help.github.com/articles/adding-a-license-to-a-repository)
+* [Adding a Code of Conduct to Your Project](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project)
+* [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics)
+* [Customizing GitHub Pages](https://help.github.com/categories/customizing-github-pages)
+* [Wikis](https://help.github.com/categories/wiki)
+* [Gists](https://help.github.com/categories/gists)
+
+Writing and Formatting
+* [Getting Started with Writing and Formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github)
+* [Working with Advanced Formatting](https://help.github.com/articles/working-with-advanced-formatting)
+
+Setting Up and Maintaining Teams
+* [Setting Up Teams](https://help.github.com/articles/setting-up-teams)
+* [Maintaining Teams](https://help.github.com/articles/maintaining-teams)
+
+Recover a Branch
+* [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
+
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
-
-
-
-
-### Common Branch Commands
-### Common Add and Commit Commands
-### Common Push and Pull Commands]
-### Fetch and Merge Versus Pull
-## Adding a Remote Upstream and Syncing a Fork
-### Syncing Branches to Keep Them Up-to-Date
 
 ### Bash Commands
 
@@ -2035,6 +2033,8 @@ Push Follow-On Commit to Shared Repo Pull Request
 
 
 ```bash
+$ git add .
+$ git commit -m "Your note"
 $ git push origin <branch-name> 
 ```
 
@@ -2079,6 +2079,10 @@ $ git push origin master
 
 <hr>
 
+
+
+
+
 ### Alternatively, Fetch Individual Pull Request
 
 This will only work for pull request branches, not feature branches. 
@@ -2088,6 +2092,8 @@ Fetch the individual pull request, checkout the branch, add and commit changes, 
 ```bash
 $ git fetch origin pull/<pull-request-number>/head:<branch-name>
 $ git checkout <branch-name>
+$ git add .
+$ git commit -m "Your note"
 $ git push <remote-name> <branch-name>
 ```
 
@@ -2096,6 +2102,8 @@ Example
 ```bash
 $ git fetch origin pull/1/head:patch-1
 $ git checkout patch-1
+$ git add .
+$ git commit -m "Your note"
 $ git push origin patch-1
 ```
 
@@ -2127,9 +2135,9 @@ $ git push <remote-name> :<branch-name>
 
 <hr>
 
-## Branch Commands
+## Common Branch Commands
 
-Switching to a branch that already exists (-b is not needed, because is used to create branch)
+Checkout (switch) to a branch that already exists (-b is not needed, because is used to create branch)
 
 ```bash
 $ git checkout <branch-name>
@@ -2151,7 +2159,9 @@ $ git checkout -b <branch-name> <branch-branching-off-of>
 
 <hr>
 
-### Add, Commit, Create a Message
+### Common Add and Commit Commands
+
+Anytime you are working on a branch, whether it be a feature branch or a pull request branch and you have made a change, you can use these commands to add and commit your changes to git version control. 
 
 After you have checked out (switched) to a branch
 
@@ -2160,23 +2170,41 @@ $ git add .
 $ git commit -m "Your note"
 ```
 
-<!--
+Alternatively, combine the two lines into one line
+
 ```bash
 $ git commit -am "Your note"
 ```
--->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
 
-### Push and Pull Commands
+### Common Push and Pull Commands]
+
+Pulling and pushing directly from and to a remote repository ($ git fetch + $ git merge in one command)
+
+```bash
+$ git pull <remote-name> <branch-name>
+$ git push <remote-name> <branch-name>
+```
+
+Pushing and pulling via URL (handy when dealing with a branch outside our origin, for instance, when working with pull request from a fork)
+
+```bash
+git pull https://github.com/<user-name>/<repo-name> <branch-name>
+git push https://github.com/<user-name>/<repo-name> <branch-name>
+```
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
 
-### Fetching and Merging Versus Pulling
+
+
+
+
+### Fetch and Merge Versus Pull
 
 
 <!--
@@ -2204,43 +2232,25 @@ Merge remote-tracking branch updates with branch you are currently checked out o
 ```bash
 $ git merge <remote-name>/<branch-name>
 ```
-
-
-
-Instead, pull directly from the remote repository branch ($ git fetch + $ git merge in one command)
-
-```bash
-$ git pull <remote-name> <branch-name>
-$ git push <remote-name> <branch-name>
-```
-
-
-
-Pushing and pulling via remote URL (will come in handy later when we are working with pull request from a fork)
-
-```bash
-git pull https://github.com/<user-name>/<repo-name> <branch-name>
-git push https://github.com/<user-name>/<repo-name> <branch-name>
-```
 -->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
 
-## Adding Upstream Remote and Syncing a Fork
-
-Add a remote
-
-```bash
-$ git remote add <remote-name> <remote-url>
-```
+## Adding a Remote Upstream and Syncing a Fork
 
 <!--
 Does not update automatically
 Upstream is the name commonly used for adding a shared repository as a remote for a fork.
 -->
 
+
+Add a remote
+
+```bash
+$ git remote add <remote-name> <remote-url>
+```
 Add upstream remote repository that will be synced with the fork
 
 ```bash
@@ -2261,10 +2271,12 @@ upstream  https://github.com/upstream-username/original-repository (push)
 
 <hr>
 
-<!--
-Merging a remote branch into a local branch
+
 
 ### Syncing Branches to Keep Them Up-to-Date
+
+<!--
+Merging a remote branch into a local branch
 
 Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
 
