@@ -1555,6 +1555,10 @@ http://semver.org
 
 </td><td>
 
+<!--
+* Tags
+* Releases
+-->
 
 <tr><td width="30%">
 
@@ -1761,7 +1765,35 @@ My fourth recommendation is that you
 
 <tr><td width="30%">
 
-![Slide 101](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_74.jpg)
+![Slide 101]()
+
+</td><td>
+
+### Debunking Myths
+
+I recommend that you be good to yourself.
+
+* Myth: The repos look perfect.
+* Reality: If you spend enough time using GitHub, you will begin to see errors and room for improvement (example: documentation, massive room for improvement)
+
+* Myth: The people working on GitHub projects must all be experts; I probably don’t fit in here.
+* Reality: People all types, all skill and knowledge levels contribute to open-source on GitHub, and you can too
+
+* Myth: GitHub users seem to know exactly what to do.
+* Reality: Behind the scenes, GitHub is actually a pretty messy place. There is plenty of self-organization, creativity, and debate
+
+* Myth: This is all about code
+* Reality: Not all GitHub projects involve code, and coding isn’t the only important skill needed on GitHub
+
+* Myth: I don’t want to break something
+* Reality: Git is extremely resilient
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 102](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_74.jpg)
 
 </td><td>
 
@@ -1775,7 +1807,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 102]()
+![Slide 103]()
 
 </td><td>
 
@@ -1794,7 +1826,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 103]()
+![Slide 104]()
 
 </td><td>
 
@@ -1807,7 +1839,7 @@ Explanation
 
 <tr><td width="30%">
 
-![Slide 104]()
+![Slide 105]()
 
 </td><td>
 
@@ -1825,7 +1857,7 @@ You will find documentation for all of these things in the Useful Resources sect
 
 <tr><td width="30%">
 
-![Slide 105]()
+![Slide 106]()
 
 </td><td>
 
@@ -1846,32 +1878,6 @@ $ git help clone
 $ git clone --help
 $ man git-clone
 ```
-
-</td></tr>
-
-
-<tr><td width="30%">
-
-![Slide 106]()
-
-</td><td>
-
-### Debunking Myths
-
-* Myth: The repos look perfect.
-* Reality: If you spend enough time using GitHub, you will begin to see errors and room for improvement (example: documentation, massive room for improvement)
-
-* Myth: The people working on GitHub projects must all be experts; I probably don’t fit in here.
-* Reality: People all types, all skill and knowledge levels contribute to open-source on GitHub, and you can too
-
-* Myth: GitHub users seem to know exactly what to do.
-* Reality: Behind the scenes, GitHub is actually a pretty messy place. There is plenty of self-organization, creativity, and debate
-
-* Myth: This is all about code
-* Reality: Not all GitHub projects involve code, and coding isn’t the only important skill needed on GitHub
-
-* Myth: I don’t want to break something
-* Reality: Git is extremely resilient
 
 </td></tr>
 
@@ -1899,6 +1905,7 @@ https://git.io/v5kpy
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
+
 
 <!--
 Merging a remote branch into a local branch
@@ -2204,7 +2211,7 @@ $ git commit -am "Your note"
 
 
 
-### Common Push and Pull Commands]
+### Common Push and Pull Commands
 
 Pulling and pushing directly from and to a remote repository
 
@@ -2233,7 +2240,7 @@ git push https://github.com/<user-name>/<repo-name> <branch-name>
 
 ### Fetch and Merge Versus Pull
 
-There are two ways to fetch a pull request branch to your local development environment to run.  
+There are two ways to fetch feature or pull request branch to your local development environment.  
 
 * You can fetch and merge (two separate commands that provide greater control)
 * Or you can pull ($ git fetch + $ git merge in one command)
@@ -2259,10 +2266,6 @@ $ git merge <remote-name>/<branch-name>
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
-
-
-
 
 ## Adding a Remote Upstream and Syncing a Fork
 
@@ -2293,8 +2296,6 @@ upstream  https://github.com/upstream-username/original-repository (push)
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
-
 
 ### Syncing Branches to Keep Them Up-to-Date
 
@@ -2331,8 +2332,6 @@ Example
 $ git checkout example-branch
 $ git merge master
 ```
-
-
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
