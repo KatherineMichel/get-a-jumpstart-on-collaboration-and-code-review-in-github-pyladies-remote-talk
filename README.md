@@ -1470,15 +1470,13 @@ $ git push <remote-name> :<branch-name>
 </td><td>
 
 
-
-
 <tr><td width="30%">
 
 ![Slide 84]()
 
 </td><td>
 
-### Common Branch Commands
+### Practical Commands
 
 </td><td>
 
@@ -1486,63 +1484,6 @@ $ git push <remote-name> :<branch-name>
 <tr><td width="30%">
 
 ![Slide 85]()
-
-</td><td>
-
-### Common Add and Commit Commands
-
-</td><td>
-
-
-<tr><td width="30%">
-
-![Slide 86]()
-
-</td><td>
-
-### Common Push and Pull Commands
-
-</td><td>
-
-
-<tr><td width="30%">
-
-![Slide 87]()
-
-</td><td>
-
-### Fetch and Merge Versus Pull
-
-</td><td>
-
-
-<tr><td width="30%">
-
-![Slide 88]()
-
-</td><td>
-
-### Keeping Branches Up-to-Date
-
-</td><td>
-
-
-<tr><td width="30%">
-
-![Slide 89]()
-
-</td><td>
-
-### Adding a Remote Upstream and Syncing a Fork
-
-</td><td>
-
-
-
-
-<tr><td width="30%">
-
-![Slide 90]()
 
 </td><td>
 
@@ -1555,7 +1496,7 @@ The workflow we have been using is basically GitHub Flow. It consists of merging
 
 <tr><td width="30%">
 
-![Slide 91]()
+![Slide 86]()
 
 </td><td>
 
@@ -1568,7 +1509,7 @@ Some projects use both a master and develop branch. For example, in a mission cr
 
 <tr><td width="30%">
 
-![Slide 92]()
+![Slide 87]()
 
 </td><td>
 
@@ -1581,7 +1522,7 @@ Some projects use both a master and develop branch. For example, in a mission cr
 
 <tr><td width="30%">
 
-![Slide 93]()
+![Slide 88]()
 
 </td><td>
 
@@ -1599,7 +1540,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 <tr><td width="30%">
 
-![Slide 94]()
+![Slide 89]()
 
 </td><td>
 
@@ -1618,7 +1559,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 <tr><td width="30%">
 
-![Slide 95]()
+![Slide 90]()
 
 </td><td>
 
@@ -1629,7 +1570,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 <tr><td width="30%">
 
-![Slide 96]()
+![Slide 91]()
 
 </td><td>
 
@@ -1642,7 +1583,7 @@ I hope that you will make your project documentation and attitude toward communi
 
 <tr><td width="30%">
 
-![Slide 97]()
+![Slide 92]()
 
 </td><td>
 
@@ -1655,7 +1596,7 @@ I recommend that you go to the Useful Resources Section, follow the links to the
 
 <tr><td width="30%">
 
-![Slide 98]()
+![Slide 93]()
 
 </td><td>
 
@@ -1666,7 +1607,7 @@ I recommend that you go to the Useful Resources Section, follow the links to the
 
 <tr><td width="30%">
 
-![Slide 99]()
+![Slide 94]()
 
 </td><td>
 
@@ -1683,7 +1624,7 @@ I recommend that you go to the Useful Resources Section, follow the links to the
 
 <tr><td width="30%">
 
-![Slide 100]()
+![Slide 95]()
 
 </td><td>
 
@@ -1701,7 +1642,7 @@ I recommend that you go to the Useful Resources Section, follow the links to the
 
 <tr><td width="30%">
 
-![Slide 101](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_71.jpg)
+![Slide 96](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_71.jpg)
 
 </td><td>
 
@@ -1715,7 +1656,7 @@ My first recommendation is that if you have the authority, go into a repo’s Se
 
 <tr><td width="30%">
 
-![Slide 102]()
+![Slide 97]()
 
 </td><td>
 
@@ -1734,7 +1675,7 @@ Here are a few things you might want to do to keep your code safe
 
 <tr><td width="30%">
 
-![Slide 103]()
+![Slide 98]()
 
 </td><td>
 
@@ -1751,7 +1692,7 @@ My second recommendation is to use productivity helpers
 
 <tr><td width="30%">
 
-![Slide 104](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_72.jpg)
+![Slide 99](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_72.jpg)
 
 </td><td>
 
@@ -1766,7 +1707,7 @@ My third recommendation is that when you are looking for a project to contribute
 
 <tr><td width="30%">
 
-![Slide 105](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_73.jpg)
+![Slide 100](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_73.jpg)
 
 </td><td>
 
@@ -1781,7 +1722,7 @@ My fourth recommendation is that you
 
 <tr><td width="30%">
 
-![Slide 106](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_74.jpg)
+![Slide 101](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_74.jpg)
 
 </td><td>
 
@@ -1795,7 +1736,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 107]()
+![Slide 102]()
 
 </td><td>
 
@@ -1814,7 +1755,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 108]()
+![Slide 103]()
 
 </td><td>
 
@@ -1827,7 +1768,7 @@ Explanation
 
 <tr><td width="30%">
 
-![Slide 109]()
+![Slide 104]()
 
 </td><td>
 
@@ -1845,7 +1786,7 @@ You will find documentation for all of these things in the Useful Resources sect
 
 <tr><td width="30%">
 
-![Slide 110]()
+![Slide 105]()
 
 </td><td>
 
@@ -1872,7 +1813,7 @@ $ man git-clone
 
 <tr><td width="30%">
 
-![Slide 111]()
+![Slide 106]()
 
 </td><td>
 
@@ -1898,7 +1839,7 @@ $ man git-clone
 
 <tr><td width="30%">
 
-![Slide 112](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_75.jpg)
+![Slide 107](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_75.jpg)
 
 </td><td>
 
@@ -1921,6 +1862,8 @@ https://git.io/v5kpy
 <hr>
 
 
+
+
 <!--
 When you make progress, I'd love to know about it. Send me a note.
 
@@ -1934,13 +1877,6 @@ Advanced workflow
 * [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
 
 http://opensourcesurvey.org/2017/#insights
-
-- [Common Branch Commands](#common-branch-commands)
-- [Common Add and Commit Commands](#common-add-and-commit-commands)
-- [Common Push and Pull Commands](#common-push-and-pull-commands)
-- [Fetch and Merge Versus Pull](#fetch-and-merge-versus-pull)
-- [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
-- [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
 -->
 
 
@@ -2026,6 +1962,15 @@ Documentation
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
+
+<!--
+- [Common Branch Commands](#common-branch-commands)
+- [Common Add and Commit Commands](#common-add-and-commit-commands)
+- [Common Push and Pull Commands](#common-push-and-pull-commands)
+- [Fetch and Merge Versus Pull](#fetch-and-merge-versus-pull)
+- [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
+- [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
+-->
 
 ### Bash Commands
 
