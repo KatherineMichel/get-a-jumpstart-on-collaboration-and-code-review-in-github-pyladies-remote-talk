@@ -7,6 +7,7 @@
 - [Additional PyLadies Resources](#additional-pyladies-resources)
 - [Slides and Script Table of Contents](#slides-and-script-table-of-contents)
 - [Slides and Script](#slides-and-script)
+
 - [Useful Resources](#useful-resources)
     - [Links](#links)    
     - [Bash Commands](#bash-commands)
@@ -14,6 +15,7 @@
     - [Review Shared Repo Pull Request](#review-shared-repo-pull-request)
     - [Review Forked Repo Pull Request](#review-forked-repo-pull-request)
     - [Merge Pull Request Locally and Push to Master Branch](#merge-pull-request-locally-and-push-to-master-branch)
+    
 - [Attribution](#attribution)
 - [Copyright](#copyright)
 
@@ -117,12 +119,9 @@ PyLadies and PyLadies Remote
 - [Tidy Up](#tidy-up)
 - [Advanced Topics](#advanced-topics)
 - [Section 4](#section-4)
-- [Common Branch Commands](#common-branch-commands)
-- [Common Add and Commit Commands](#common-add-and-commit-commands)
-- [Common Push and Pull Commands](#common-push-and-pull-commands)
-- [Fetch and Merge Versus Pull](#fetch-and-merge-versus-pull)
-- [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
-- [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
+- [Practical Commands](#practical-commands)
+
+
 - [GitHub Flow](#github-flow)
 - [Another Workflow](#another-workflow)
 - [Workflow Decisions](#workflow-decisions)
@@ -141,12 +140,10 @@ PyLadies and PyLadies Remote
 - [Sandboxing](#sandboxing)
 - [Go For It!](#go-for-it)
 - [Section 7](#section-7)
-- [Debunking Myths](#debunking-myths)
-- [Section 8](#section-8)
+- [Simulation Exercise](#simulation-exercise)
 - [Prerequisites for Getting Started](#prerequisites-for-getting-started)
-- [Browser, Desktop, Command Line](#browser-desktop-command-line)
 - [Getting Help](#getting-help)
-- [Organization and Repo Tour](#organization-and-repo-tour)
+- [Debunking Myths](#debunking-myths)
 - [Thank You](#thank-you)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
@@ -1937,6 +1934,13 @@ Advanced workflow
 * [Getting to 10x (Results): What Any Developer Can Learn from the Best](https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef)
 
 http://opensourcesurvey.org/2017/#insights
+
+- [Common Branch Commands](#common-branch-commands)
+- [Common Add and Commit Commands](#common-add-and-commit-commands)
+- [Common Push and Pull Commands](#common-push-and-pull-commands)
+- [Fetch and Merge Versus Pull](#fetch-and-merge-versus-pull)
+- [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
+- [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
 -->
 
 
