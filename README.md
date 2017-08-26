@@ -1638,6 +1638,8 @@ Some developers have passionate views about workflow (see comment threads in som
 
 ### Communication Strategy
 
+I hope that you will make your project documentation and attitude toward community members welcoming and positive. 
+
 </td><td>
 
 
@@ -1649,7 +1651,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 ### Documentation
 
-My first recommendation is that you go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation, read it, and make the documentations in your own projects equally welcoming and positive. 
+My highly recommend that you go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation and read it. 
 
 </td></tr>
 
@@ -1792,7 +1794,6 @@ My last but not least recommendation is that you become a contributor to the Dja
 * We have a diverse group of contributors of all skill levels and we are always looking for more contributors. Let us know if you are interested.  
 
 </td></tr>
-
 
 
 <tr><td width="30%">
