@@ -1423,16 +1423,6 @@ $ git push origin master
 
 
 
-<tr><td width="30%">
-
-![Slide 78]()
-
-</td><td>
-
-### Merge Conflict
-
-</td></tr>
-
 
 <tr><td width="30%">
 
@@ -1444,17 +1434,18 @@ $ git push origin master
 
 After a pull request is closed, it’s good practice to delete the feature branch in the browser and locally. There will be a button on the pull request page that you can use to delete the feature branch in the browser, or you can delete it in the branches tab. Or, you can use the third command. The first two commands are to delete the branch locally. 
 
+Delete local branch
 $ git branch -d <branch-name>
+
+Force delete local branch
 $ git branch -D <branch-name>
+
+Delete remote branch (instead of deleting directly through browser)
 $ git push <remote-name> :<branch-name>
 
 </td></tr>
 
 
-
-<!--
-* Delete local and remote (in browser) feature branch
--->
 
 
 <tr><td width="30%">
@@ -2190,7 +2181,7 @@ Force delete local branch
 $ git branch -D  <branch-name>
 ```
 
-Delete remote branch
+Delete remote branch (instead of deleting directly through browser)
 
 ```bash
 $ git push <remote-name> :<branch-name>
