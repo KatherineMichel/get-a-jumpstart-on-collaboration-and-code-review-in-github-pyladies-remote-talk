@@ -1935,11 +1935,9 @@ Advanced Collaborative Development Workflow Examples
 * [A Successful Git Branching Model Considered Harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful)
 * [SemVer](http://semver.org) (subtopic)
 
+10x Results
+* ["Survey: Getting to 10x — What do the Best Developers Have in Common?"](https://medium.com/javascript-scene/survey-getting-to-10x-what-do-the-best-developers-have-in-common-4c9b4a4915a9)
 * [Open Source Guide Insights](http://opensourcesurvey.org/2017/#insights)
-
-<!-- 
-Eric Survey
--->
 
 Documentation
 * [DjangoCon US Website README.md](https://github.com/djangocon/2017.djangocon.us/blob/master/README.md)
@@ -2053,6 +2051,8 @@ Push additional commits to forked repo feature branch or pull request branch (co
 
 
 ```bash
+$ git add .
+$ git commit -m "Your note"
 $ git push https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
@@ -2060,6 +2060,8 @@ Push additional commits to forked repo feature branch or pull request branch, if
 
 
 ```bash
+$ git add .
+$ git commit -m "Your note"
 $ git push https://github.com/<user-name>/<repo-name> <local-branch-name>:<remote-branch-name>
 ```
 
@@ -2182,7 +2184,7 @@ $ git commit -am "Your note"
 
 ### Common Push and Pull Commands]
 
-Pulling and pushing directly from and to a remote repository ($ git fetch + $ git merge in one command)
+Pulling and pushing directly from and to a remote repository
 
 ```bash
 $ git pull <remote-name> <branch-name>
@@ -2200,20 +2202,12 @@ git push https://github.com/<user-name>/<repo-name> <branch-name>
 
 <hr>
 
-
-
-
-
 ### Fetch and Merge Versus Pull
 
-
-<!--
 There are two ways to fetch a pull request branch to your local development environment to run.  
 
-* You can fetch and merge (two separate commands)
-* Or you can pull, which combines fetching and merging into one command
-
-
+* You can fetch and merge (two separate commands that provide greater control)
+* Or you can pull ($ git fetch + $ git merge in one command)
 
 Fetch new branches and commits from the remote repository to local .git folder (add a remote first, if needed), without merging them locally. The branches stored here are called remote-tracking branches.  
 
@@ -2232,11 +2226,14 @@ Merge remote-tracking branch updates with branch you are currently checked out o
 ```bash
 $ git merge <remote-name>/<branch-name>
 ```
--->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
+
+
+
+
 
 ## Adding a Remote Upstream and Syncing a Fork
 
