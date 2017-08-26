@@ -1878,6 +1878,10 @@ https://git.io/v5kpy
 
 <hr>
 
+<!--
+Bash commands
+-->
+
 ## Useful Resources
 
 ### Links
@@ -2191,6 +2195,13 @@ $ git pull <remote-name> <branch-name>
 $ git push <remote-name> <branch-name>
 ```
 
+Common pull and push example
+
+```bash
+$ git pull origin master
+$ git push origin master
+```
+
 Pushing and pulling via URL (handy when dealing with a branch outside our origin, for instance, when working with pull request from a fork)
 
 ```bash
@@ -2237,24 +2248,21 @@ $ git merge <remote-name>/<branch-name>
 
 ## Adding a Remote Upstream and Syncing a Fork
 
-<!--
-Does not update automatically
-Upstream is the name commonly used for adding a shared repository as a remote for a fork.
--->
-
+When a shared repository is updated, the fork does not automatically update with the change. You could delete and re-fork the fork, but this is not practical, for instance, if you have a pull request pending. So, you can add the shared repository as a remote to your local clone, fetch the updates, and push them to your fork. 
 
 Add a remote
 
 ```bash
 $ git remote add <remote-name> <remote-url>
 ```
-Add upstream remote repository that will be synced with the fork
+
+Add upstream remote repository (the name upstream is very commonly used in this situation)
 
 ```bash
 $ git remote add upstream https://github.com/upstream-username/original-repository.git
 ```
 
-Verify new upstream remote (can only push to upstream if have write permission)
+Verify new upstream remote (cannot push to upstream unless you have write permission)
 
 ```bash
 $ git remote -v
@@ -2287,13 +2295,6 @@ Common origin example
 $ git fetch origin
 $ git checkout master
 $ git merge origin/master
-```
-
-Common pull and push example
-
-```bash
-$ git pull origin master
-$ git push origin master
 ```
 
 Common upstream example (including pushing changes to corresponding branch in forked repository in GitHub)
