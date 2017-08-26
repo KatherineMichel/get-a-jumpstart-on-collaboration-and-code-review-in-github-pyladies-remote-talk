@@ -1453,6 +1453,7 @@ $ git push <remote-name> :<branch-name>
 I’m not really covering these, but it’s good to be aware of them if you want to go further with your knowledge
 * Rebase
 * Interactive rebase
+* Squashing
 * Merge conflicts
 * Aliases
 * Fetch individual pull request branches (commands in Useful Resources section)
