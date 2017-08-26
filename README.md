@@ -599,8 +599,7 @@ You can also create and work on branches through the command line in your local 
 * Additional workflow and command info
 * People, communication, documentation
 * Recommendations
-* Don’t Be Me
-* Simulation Exercise
+* Simulation exercise
 
 </td><td>
 
@@ -1815,18 +1814,6 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 
 
-<tr><td width="30%">
-
-![Slide 108]()
-
-</td><td>
-
-### Debunking Myths
-
-</td></tr>
-
-
-
 
 <tr><td width="30%">
 
@@ -1842,8 +1829,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 * Additional workflow and command info
 * People, communication, documentation
 * Recommendations
-* Don’t Be Me
-* Simulation Exercise
+* Simulation exercise
 
 </td></tr>
 
@@ -1900,6 +1886,17 @@ $ git help clone
 $ git clone --help
 $ man git-clone
 ```
+
+</td></tr>
+
+
+<tr><td width="30%">
+
+![Slide 108]()
+
+</td><td>
+
+### Debunking Myths
 
 </td></tr>
 
@@ -2213,6 +2210,12 @@ After you have checked out (switched) to a branch
 $ git add .
 $ git commit -m "Your note"
 ```
+
+<!--
+```bash
+$ git commit -am "Your note"
+```
+-->
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
