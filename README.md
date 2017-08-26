@@ -998,7 +998,7 @@ Here's what it looks like when we use the "Shared Repository" Model
 
 ### Bash Commands
 
-Bash commands are commands that you use in the command line to communicate directly with your computer operating system. The commands below are enough to be able to use git. In the Useful Resources section, I’ve included a link to more bash commands. The other commands we are going to use in this talk are git commands.
+Bash commands are commands that you use in the command line to communicate directly with your computer operating system. The commands below are enough to be able to use git. The other commands we are going to use in this talk are git commands.
 
 A couple useful things to know
 * Some tasks vary by operating system- check tabs at the top of GitHub articles for special OS instructions; For instance, not all command lines use a $
@@ -1879,11 +1879,11 @@ https://git.io/v5kpy
 <hr>
 
 <!--
-Bash commands
-
 Merging a remote branch into a local branch
 
 Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
+
+Local path when cloning
 -->
 
 ## Useful Resources
@@ -2032,7 +2032,7 @@ $ git checkout -b <branch-name> origin/<branch-name>
 $ git merge master
 ```
 
-If we make a change, we can push additional commits to the shared repo pull request
+If we make a change, we can push additional commits to the shared repo feature branch or pull request branch
 
 ```bash
 $ git add .
@@ -2051,11 +2051,7 @@ $ git checkout -b <branch-name> master
 $ git pull https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-
-
-
-Push additional commits to forked repo feature branch or pull request branch (contributor needs to have given permission, and local branch name and remote branch name need to match)
-
+If we make a change, we can push additional commits to the forked repo pull request branch (pull request author needs to have given permission, and local branch name and remote branch name need to match)
 
 ```bash
 $ git add .
@@ -2063,8 +2059,7 @@ $ git commit -m "Your note"
 $ git push https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-Push additional commits to forked repo feature branch or pull request branch, if local branch name is different than pull request branch name (contributor needs to have given permission)
-
+If we make a change, we can push additional commits to the forked repo pull request branch, even if the local branch name is different than the remote branch name (pull request author needs to have given permission, and local branch name and remote branch name need to match)
 
 ```bash
 $ git add .
@@ -2087,10 +2082,6 @@ $ git push origin master
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
-
-
-
 
 ### Alternatively, Fetch Individual Pull Request
 
@@ -2188,6 +2179,8 @@ $ git commit -am "Your note"
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
+
+
 
 ### Common Push and Pull Commands]
 
