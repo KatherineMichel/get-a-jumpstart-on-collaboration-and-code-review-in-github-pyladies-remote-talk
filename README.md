@@ -7,7 +7,6 @@
 - [Additional PyLadies Resources](#additional-pyladies-resources)
 - [Slides and Script Table of Contents](#slides-and-script-table-of-contents)
 - [Slides and Script](#slides-and-script)
-
 - [Useful Resources](#useful-resources)
     - [Links](#links)    
     - [Bash Commands](#bash-commands)
@@ -15,7 +14,14 @@
     - [Review Shared Repo Pull Request](#review-shared-repo-pull-request)
     - [Review Forked Repo Pull Request](#review-forked-repo-pull-request)
     - [Merge Pull Request Locally and Push to Master Branch](#merge-pull-request-locally-and-push-to-master-branch)
-    
+    - [Alternatively, Fetch Individual Pull Request](#alternatively-fetch-individual-pull-request)
+    - [Delete a Branch](#delete-a-branch)
+    - [Common Branch Commands](#common-branch-commands)
+    - [Common Add and Commit Commands](#common-add-and-commit-commands)
+    - [Common Push and Pull Commands](#common-push-and-pull-commands)
+    - [Fetch and Merge Versus Pull](#fetch-and-merge-versus-pull)
+    - [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
+    - [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
 - [Attribution](#attribution)
 - [Copyright](#copyright)
 
@@ -1963,14 +1969,16 @@ Documentation
 
 <hr>
 
-<!--
-- [Common Branch Commands](#common-branch-commands)
-- [Common Add and Commit Commands](#common-add-and-commit-commands)
-- [Common Push and Pull Commands](#common-push-and-pull-commands)
-- [Fetch and Merge Versus Pull](#fetch-and-merge-versus-pull)
-- [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
-- [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
--->
+
+
+
+
+### Common Branch Commands
+### Common Add and Commit Commands
+### Common Push and Pull Commands]
+### Fetch and Merge Versus Pull
+## Adding a Remote Upstream and Syncing a Fork
+### Syncing Branches to Keep Them Up-to-Date
 
 ### Bash Commands
 
