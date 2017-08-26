@@ -1478,7 +1478,7 @@ $ git push <remote-name> :<branch-name>
 
 <tr><td width="30%">
 
-![Slide 82]()
+![Slide 84]()
 
 </td><td>
 
@@ -1489,7 +1489,7 @@ $ git push <remote-name> :<branch-name>
 
 <tr><td width="30%">
 
-![Slide 83]()
+![Slide 85]()
 
 </td><td>
 
@@ -1500,7 +1500,7 @@ $ git push <remote-name> :<branch-name>
 
 <tr><td width="30%">
 
-![Slide 84]()
+![Slide 86]()
 
 </td><td>
 
@@ -1511,7 +1511,7 @@ $ git push <remote-name> :<branch-name>
 
 <tr><td width="30%">
 
-![Slide 85]()
+![Slide 87]()
 
 </td><td>
 
@@ -1522,7 +1522,7 @@ $ git push <remote-name> :<branch-name>
 
 <tr><td width="30%">
 
-![Slide 86]()
+![Slide 88]()
 
 </td><td>
 
@@ -1533,7 +1533,7 @@ $ git push <remote-name> :<branch-name>
 
 <tr><td width="30%">
 
-![Slide 87]()
+![Slide 89]()
 
 </td><td>
 
@@ -1543,9 +1543,10 @@ $ git push <remote-name> :<branch-name>
 
 
 
+
 <tr><td width="30%">
 
-![Slide 88]()
+![Slide 90]()
 
 </td><td>
 
@@ -1558,7 +1559,7 @@ The workflow we have been using is basically GitHub Flow. It consists of merging
 
 <tr><td width="30%">
 
-![Slide 89]()
+![Slide 91]()
 
 </td><td>
 
@@ -1571,7 +1572,7 @@ Some projects use both a master and develop branch. For example, in a mission cr
 
 <tr><td width="30%">
 
-![Slide 90]()
+![Slide 92]()
 
 </td><td>
 
@@ -1584,7 +1585,7 @@ Some projects use both a master and develop branch. For example, in a mission cr
 
 <tr><td width="30%">
 
-![Slide 91]()
+![Slide 93]()
 
 </td><td>
 
@@ -1602,7 +1603,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 <tr><td width="30%">
 
-![Slide 92]()
+![Slide 94]()
 
 </td><td>
 
@@ -1621,7 +1622,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 <tr><td width="30%">
 
-![Slide 93]()
+![Slide 95]()
 
 </td><td>
 
@@ -1632,7 +1633,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 <tr><td width="30%">
 
-![Slide 94]()
+![Slide 96]()
 
 </td><td>
 
@@ -1643,7 +1644,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 <tr><td width="30%">
 
-![Slide 95]()
+![Slide 97]()
 
 </td><td>
 
@@ -1656,7 +1657,7 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 
 <tr><td width="30%">
 
-![Slide 96]()
+![Slide 98]()
 
 </td><td>
 
@@ -1667,7 +1668,7 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 
 <tr><td width="30%">
 
-![Slide 97]()
+![Slide 99]()
 
 </td><td>
 
@@ -1684,7 +1685,7 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 
 <tr><td width="30%">
 
-![Slide 98]()
+![Slide 100]()
 
 </td><td>
 
@@ -1702,7 +1703,7 @@ My first recommendation is that you go to the Useful Resources Section, follow t
 
 <tr><td width="30%">
 
-![Slide 99](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_71.jpg)
+![Slide 101](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_71.jpg)
 
 </td><td>
 
@@ -1716,7 +1717,7 @@ My first recommendation is that if you have the authority, go into a repo’s Se
 
 <tr><td width="30%">
 
-![Slide 100]()
+![Slide 102]()
 
 </td><td>
 
@@ -1735,7 +1736,7 @@ Here are a few things you might want to do to keep your code safe
 
 <tr><td width="30%">
 
-![Slide 101]()
+![Slide 103]()
 
 </td><td>
 
@@ -1752,7 +1753,7 @@ My second recommendation is to use productivity helpers
 
 <tr><td width="30%">
 
-![Slide 102](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_72.jpg)
+![Slide 104](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_72.jpg)
 
 </td><td>
 
@@ -1767,7 +1768,7 @@ My third recommendation is that when you are looking for a project to contribute
 
 <tr><td width="30%">
 
-![Slide 103](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_73.jpg)
+![Slide 105](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_73.jpg)
 
 </td><td>
 
@@ -1782,7 +1783,7 @@ My fourth recommendation is that you
 
 <tr><td width="30%">
 
-![Slide 104](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_74.jpg)
+![Slide 106](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_74.jpg)
 
 </td><td>
 
@@ -1796,7 +1797,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 105]()
+![Slide 107]()
 
 </td><td>
 
@@ -1816,7 +1817,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 106]()
+![Slide 108]()
 
 </td><td>
 
