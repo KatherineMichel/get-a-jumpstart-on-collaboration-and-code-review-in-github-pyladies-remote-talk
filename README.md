@@ -1638,7 +1638,7 @@ Some developers have passionate views about workflow (see comment threads in som
 
 ### Communication Strategy
 
-I hope that you will make your project documentation and attitude toward community members welcoming and positive. 
+I hope that you will make your project documentation and attitude toward community members welcoming and positive. This is a way to increase the number of contributions and increase diversity. 
 
 </td><td>
 
@@ -1651,7 +1651,7 @@ I hope that you will make your project documentation and attitude toward communi
 
 ### Documentation
 
-My highly recommend that you go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation and read it. 
+I recommend that you go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation and read it. 
 
 </td></tr>
 
@@ -1822,6 +1822,8 @@ My last but not least recommendation is that you become a contributor to the Dja
 </td><td>
 
 ### Simulation Exercise
+
+Explanation
 
 </td></tr>
 
