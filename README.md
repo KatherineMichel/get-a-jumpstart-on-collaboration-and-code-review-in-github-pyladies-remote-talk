@@ -1794,6 +1794,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 </td></tr>
 
 
+
 <tr><td width="30%">
 
 ![Slide 107]()
@@ -1801,27 +1802,6 @@ My last but not least recommendation is that you become a contributor to the Dja
 </td><td>
 
 ### Section 7
-* Determine which collaboration approach to use (there are two)
-* Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
-* Review the two different types of pull requests as a DjangoCon US website repo maintainer
-* Additional workflow and command info
-* People, communication, documentation
-* Recommendations
-* Don’t Be Me
-
-</td></tr>
-
-
-
-
-
-<tr><td width="30%">
-
-![Slide 113]()
-
-</td><td>
-
-### Section 8
 
 * Determine which collaboration approach to use (there are two)
 * Clone a repo into our local development environment, create a feature branch, make a change, push the branch to the GitHub repo we cloned from, and submit a pull request to DjangoCon US Website repo
@@ -1836,7 +1816,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 114]()
+![Slide 108]()
 
 </td><td>
 
@@ -1847,7 +1827,7 @@ My last but not least recommendation is that you become a contributor to the Dja
 
 <tr><td width="30%">
 
-![Slide 115]()
+![Slide 109]()
 
 </td><td>
 
@@ -1865,7 +1845,7 @@ You will find documentation for all of these things in the Useful Resources sect
 
 <tr><td width="30%">
 
-![Slide 116]()
+![Slide 110]()
 
 </td><td>
 
@@ -1892,18 +1872,33 @@ $ man git-clone
 
 <tr><td width="30%">
 
-![Slide 108]()
+![Slide 111]()
 
 </td><td>
 
 ### Debunking Myths
+
+* Myth: The repos look perfect.
+* Reality: If you spend enough time using GitHub, you will begin to see errors and room for improvement (example: documentation, massive room for improvement)
+
+* Myth: The people working on GitHub projects must all be experts; I probably don’t fit in here.
+* Reality: People all types, all skill and knowledge levels contribute to open-source on GitHub, and you can too
+
+* Myth: GitHub users seem to know exactly what to do.
+* Reality: Behind the scenes, GitHub is actually a pretty messy place. There is plenty of self-organization, creativity, and debate
+
+* Myth: This is all about code
+* Reality: Not all GitHub projects involve code, and coding isn’t the only important skill needed on GitHub
+
+* Myth: I don’t want to break something
+* Reality: Git is extremely resilient
 
 </td></tr>
 
 
 <tr><td width="30%">
 
-![Slide 117](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_75.jpg)
+![Slide 112](https://speakerd.s3.amazonaws.com/presentations/9c443e1c285345d6a370956f3852ae18/slide_75.jpg)
 
 </td><td>
 
