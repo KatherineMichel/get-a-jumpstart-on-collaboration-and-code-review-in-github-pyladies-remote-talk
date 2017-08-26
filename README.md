@@ -25,10 +25,6 @@
 - [Attribution](#attribution)
 - [Copyright](#copyright)
 
-<!--
-### Alternatively, Fetch Individual Pull Request
--->
-
 <hr>
 
 ## About
@@ -126,8 +122,6 @@ PyLadies and PyLadies Remote
 - [Advanced Topics](#advanced-topics)
 - [Section 4](#section-4)
 - [Practical Commands](#practical-commands)
-
-
 - [GitHub Flow](#github-flow)
 - [Another Workflow](#another-workflow)
 - [Workflow Decisions](#workflow-decisions)
@@ -400,7 +394,7 @@ If you click on the hyperlink, it will open up the repo and you will see the fol
 
 </td><td>
 
-### Local Dev Environment
+### Local Development Environment Example
 
 When we are working on code, we can't do everything in the GitHub website. 
 * For example, we might want to make a copy of the DjangoCon US website code in the local development environment of our computer, install the necessary software, and run the code in a local browser so that you can add a feature to it, or test a pull request branch.
