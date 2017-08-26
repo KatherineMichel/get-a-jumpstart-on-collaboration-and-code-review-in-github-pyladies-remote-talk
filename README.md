@@ -1450,6 +1450,7 @@ $ git push <remote-name> :<branch-name>
 
 ### Advanced Topics
 
+I’m not really covering these, but it’s good to be aware of them if you want to go further with your knowledge
 * Rebase
 * Interactive rebase
 * Merge conflicts
@@ -1498,6 +1499,14 @@ The workflow we have been using is basically GitHub Flow. It consists of merging
 
 </td><td>
 
+<!--
+Gitflow 
+http://scottchacon.com/2011/08/31/github-flow.html
+https://help.github.com/articles/what-is-a-good-git-workflow
+https://guides.github.com/introduction/flow
+https://help.github.com/articles/about-collaborative-development-models
+https://help.github.com/articles/github-flow
+-->
 
 <tr><td width="30%">
 
@@ -1610,6 +1619,15 @@ https://github.com/djangocon/2017.djangocon.us/blob/master/CONTRIBUTING.md
 
 </td></tr>
 
+<!--
+* CONTRIBUTING.md (look at examples for ideas, will generate a message "Please review the guidelines for...")
+
+GitHub can help you to generate a LICENSE and CODE_OF_CONDUCT.md based on commonly used licenses and codes
+* LICENSE- tells you the legal terms under which you can contribute and use the code
+* CODE_OF_CONDUCT.md- a set of rules outlining the expectations and responsibilities of contributors 
+* README.md- gives general project information
+* CONTRIBUTING.md- gives info about contributing. When a contributing document is present, when someone creates an issue, they will see a message prompting them to read the contributing document.
+-->
 
 <tr><td width="30%">
 
@@ -1714,6 +1732,10 @@ My second recommendation is to use productivity helpers
 </td><td>
 
 ### Triaging
+
+Tips for getting started
+
+In the Useful Resources section there is an excellent checklist for evaluating a project and I recommend that you take a look at it. In general...
 
 My third recommendation is that when you are looking for a project to contribute to
 * Search by tag to find projects that use triaging. Triaging is where issues are sorted by difficulty level
