@@ -1880,6 +1880,10 @@ https://git.io/v5kpy
 
 <!--
 Bash commands
+
+Merging a remote branch into a local branch
+
+Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
 -->
 
 ## Useful Resources
@@ -2028,11 +2032,7 @@ $ git checkout -b <branch-name> origin/<branch-name>
 $ git merge master
 ```
 
-
-
-Push Follow-On Commit to Shared Repo Pull Request
-
-
+If we make a change, we can push additional commits to the shared repo pull request
 
 ```bash
 $ git add .
@@ -2050,6 +2050,9 @@ $ git push origin <branch-name>
 $ git checkout -b <branch-name> master
 $ git pull https://github.com/<user-name>/<repo-name> <branch-name>
 ```
+
+
+
 
 Push additional commits to forked repo feature branch or pull request branch (contributor needs to have given permission, and local branch name and remote branch name need to match)
 
@@ -2280,14 +2283,8 @@ upstream  https://github.com/upstream-username/original-repository (push)
 
 ### Syncing Branches to Keep Them Up-to-Date
 
-<!--
-Merging a remote branch into a local branch
-
-Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
-
 If you are working from the "Shared Repository" Model, you are fetching from the origin. 
 If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
--->
 
 Common origin example
 
@@ -2319,6 +2316,8 @@ Example
 $ git checkout example-branch
 $ git merge master
 ```
+
+
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
