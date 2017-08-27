@@ -1479,6 +1479,8 @@ I’m not really covering these, but it’s good to be aware of them if you want
 
 ### Practical Commands
 
+https://github.com/KatherineMichel/get-a-jumpstart-on-collaboration-and-code-review-in-github-pyladies-remote#useful-resources
+
 </td><td>
 
 
@@ -1494,14 +1496,6 @@ The workflow we have been using is basically GitHub Flow. It consists of merging
 
 </td><td>
 
-<!--
-Gitflow 
-http://scottchacon.com/2011/08/31/github-flow.html
-https://help.github.com/articles/what-is-a-good-git-workflow
-https://guides.github.com/introduction/flow
-https://help.github.com/articles/about-collaborative-development-models
-https://help.github.com/articles/github-flow
--->
 
 <tr><td width="30%">
 
@@ -1533,7 +1527,6 @@ Some developers have passionate views about workflow (see comment threads in som
 
 http://nvie.com/posts/a-successful-git-branching-model
 https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful
-http://semver.org
 
 </td><td>
 
