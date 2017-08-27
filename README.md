@@ -3,6 +3,7 @@
 # Table of Contents
 
 - [About](#about)
+- [GitHub and Git Installation Instructions](#github-and-git-installation-instructions)
 - [Important Webcast Links](#important-webcast-links)
 - [Additional PyLadies Resources](#additional-pyladies-resources)
 - [Slides and Script Table of Contents](#slides-and-script-table-of-contents)
@@ -24,6 +25,7 @@
     - [Adding a Remote Upstream and Syncing a Fork](#adding-a-remote-upstream-and-syncing-a-fork)
     - [Keeping Branches Up-to-Date](#keeping-branches-up-to-date)
 - [Attribution](#attribution)
+- [Contact Kati](#contact-kati)
 - [Copyright](#copyright)
 
 <hr>
@@ -42,6 +44,10 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 ### GitHub and Git Installations Instructions
 
 * [GitHub and Git Installations Instructions](setting-up-github-and-git.md)
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
 
 ## Important Webcast Links
 
@@ -2328,6 +2334,16 @@ The style of this transcript is heavily inspired by:
 * Honza Javorek's ([Twitter](https://twitter.com/honzajavorek), [GitHub](https://github.com/honzajavorek)) transcript of Anna Ossowski's ([Twitter](https://twitter.com/OssAnna16), [GitHub](https://github.com/OssAnna16)) keynote [Be(Come) A Mentor! Help Others Succeed!](https://github.com/honzajavorek/become-mentor) for [PyCon CZ 2017](https://cz.pycon.org/2017/). 
 
 Thank you!
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+## Contact Kati
+
+* email: kthrnmichel@gmail.com
+* GitHub: https://github.com/KatherineMichel
+* Twitter: https://twitter.com/KatiMichel
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
