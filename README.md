@@ -39,6 +39,10 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 
 <hr>
 
+### GitHub and Git Installations Instructions
+
+* [GitHub and Git Installations Instructions](setting-up-github-and-git.md)
+
 ## Important Webcast Links
 
 * [PyLadies Remote tlk.io Chat Forum](https://tlk.io/pyladiesremote)
