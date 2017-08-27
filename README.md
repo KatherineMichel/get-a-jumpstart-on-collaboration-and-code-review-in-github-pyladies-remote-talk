@@ -1558,6 +1558,10 @@ https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmf
 
 ### Getting to 10x Results
 
+There are two resources I want to direct you to: 
+One is a survey by Eric Elliott of ~1000 developers to find out what makes some developers achieve 10x more results than others. Not all of the answers were code related. The results showed that developers that achieve 10x the results tend to be mentors/teachers and communicator/collaborators.
+The other resources I want to direct you to is a Open Source Survey completed by GitHub. Even though documentation is considered extremely useful, it is often missing.
+
 https://medium.com/javascript-scene/getting-to-10x-results-what-any-developer-can-learn-from-the-best-54b6c296a5ef
 http://opensourcesurvey.org/2017/#insights
 
@@ -1587,22 +1591,17 @@ I hope that you will make your project documentation and attitude toward communi
 
 I recommend that you go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation and read it. 
 
+* README.md- gives general project information
+* LICENSE- tells you the legal terms under which you can contribute and use the code
+* CODE_OF_CONDUCT.md- a set of rules outlining the expectations and responsibilities of contributors 
+* CONTRIBUTING.md- gives info about contributing. 
+
 https://github.com/djangocon/2017.djangocon.us/blob/master/README.md
 https://github.com/djangocon/2017.djangocon.us/blob/master/LICENSE
 https://github.com/djangocon/2017.djangocon.us/blob/master/CODE_OF_CONDUCT.md
 https://github.com/djangocon/2017.djangocon.us/blob/master/CONTRIBUTING.md
 
 </td></tr>
-
-<!--
-* CONTRIBUTING.md (look at examples for ideas, will generate a message "Please review the guidelines for...")
-
-GitHub can help you to generate a LICENSE and CODE_OF_CONDUCT.md based on commonly used licenses and codes
-* LICENSE- tells you the legal terms under which you can contribute and use the code
-* CODE_OF_CONDUCT.md- a set of rules outlining the expectations and responsibilities of contributors 
-* README.md- gives general project information
-* CONTRIBUTING.md- gives info about contributing. When a contributing document is present, when someone creates an issue, they will see a message prompting them to read the contributing document.
--->
 
 
 <tr><td width="30%">
@@ -1612,6 +1611,10 @@ GitHub can help you to generate a LICENSE and CODE_OF_CONDUCT.md based on common
 </td><td>
 
 ### Templates
+
+See the Simulation Exercise
+* ISSUE_TEMPLATE
+* PULL_REQUEST_TEMPLATE'
 
 </td></tr>
 
@@ -1629,8 +1632,6 @@ GitHub can help you to generate a LICENSE and CODE_OF_CONDUCT.md based on common
 * Gists
 
 </td></tr>
-
-
 
 
 <tr><td width="30%">
@@ -1727,6 +1728,8 @@ My third recommendation is that when you are looking for a project to contribute
 </td><td>
 
 ### Sandboxing
+
+Tips for getting started
 
 My fourth recommendation is that you 
 * Practice your skills and workflow. Don't be afraid to delete and start over
@@ -1877,15 +1880,6 @@ https://git.io/v5kpy
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
-
-<!--
-Merging a remote branch into a local branch
-
-Whichever collaborative development model you are using, you can fetch updates from the shared repository and merge them into your local development environment. 
-
-Local path when cloning
--->
 
 ## Useful Resources
 
@@ -2136,7 +2130,7 @@ $ git push <remote-name> :<branch-name>
 
 <hr>
 
-## Common Branch Commands
+### Common Branch Commands
 
 Checkout (switch) to a branch that already exists (-b is not needed, because is used to create branch)
 
@@ -2180,8 +2174,6 @@ $ git commit -am "Your note"
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
 <hr>
-
-
 
 ### Common Push and Pull Commands
 
@@ -2239,7 +2231,7 @@ $ git merge <remote-name>/<branch-name>
 
 <hr>
 
-## Adding a Remote Upstream and Syncing a Fork
+### Adding a Remote Upstream and Syncing a Fork
 
 When a shared repository is updated, the fork does not automatically update with the change. You could delete and re-fork the fork, but this is not practical, for instance, if you have a pull request pending. So, you can add the shared repository as a remote to your local clone, fetch the updates, and push them to your fork. 
 
