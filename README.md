@@ -2012,7 +2012,7 @@ Normal cloning
 $ git clone <repo-url>
 ```
 
-Avoid a local path conflict by giving the clone a different name (for instance if you are cloning two different repos with the same name)
+Avoid a local path conflict by giving a clone a different name (for instance if you are cloning both a shared repo and a fork for practice!)
 
 ```bash
 $ git clone <repo-url> <different-local-directory-name>
