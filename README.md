@@ -25,18 +25,14 @@
 - [Attribution](#attribution)
 - [Copyright](#copyright)
 
-<!--
-### Alternatively, Fetch Individual Pull Request
--->
-
 <hr>
 
 ## About
 
-Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.com/KatiMichel), [GitHub](https://github.com/KatherineMichel)) will give for [PyLadies Remote](https://2017.djangocon.us).
+Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.com/KatiMichel), [GitHub](https://github.com/KatherineMichel)) gave for [PyLadies Remote](https://2017.djangocon.us).
 
-* Original slide deck: Coming soon!
-* Video recording: Coming soon!
+* [Original slide deck](https://docs.google.com/presentation/d/1PEgxQBzGdAzcc1X3qE5aUndcdi3wefbG02zpT5SEJ2Q/edit?usp=sharing)
+* [Video recording](https://www.youtube.com/watch?v=eBTLPYbVvQY)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
@@ -44,7 +40,6 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 
 ## Important Webcast Links
 
-* ["Get a Jumpstart on Collaboration and Code Review" Webcast Link](https://www.youtube.com/watch?v=eBTLPYbVvQY)
 * [PyLadies Remote tlk.io Chat Forum](https://tlk.io/pyladiesremote)
 * [DjangoCon GitHub Repo](https://github.com/djangocon)
 * [DjangoCon U.S. 2017 Website Repo GitHub](https://github.com/djangocon/2017.djangocon.us)
