@@ -162,6 +162,8 @@ PyLadies and PyLadies Remote
 
 ## Slides and Script
 
+The script is a general outline and varies somewhat from what was said during the webcast.
+
 <table>
 
 <tr><td width="30%">
