@@ -41,9 +41,9 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 
 <hr>
 
-### GitHub and Git Installations Instructions
+### GitHub and Git Installation Instructions
 
-* [GitHub and Git Installations Instructions](setting-up-github-and-git.md)
+* [GitHub and Git Installation Instructions](setting-up-github-and-git.md)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
