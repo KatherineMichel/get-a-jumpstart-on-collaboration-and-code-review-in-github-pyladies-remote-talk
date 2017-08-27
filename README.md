@@ -10,6 +10,7 @@
 - [Useful Resources](#useful-resources)
     - [Links](#links)    
     - [Bash Commands](#bash-commands)
+    - [Cloning](#cloning)    
     - [Local Development](#local-development)
     - [Review Shared Repo Pull Request](#review-shared-repo-pull-request)
     - [Review Forked Repo Pull Request](#review-forked-repo-pull-request)
@@ -2003,6 +2004,20 @@ $ ls
 
 <hr>
 
+### Cloning
+
+Normal cloning
+
+```bash
+$ git clone <repo-url>
+```
+
+Avoid a local path conflict by giving the clone a different name (for instance if you are cloning two different repos with the same name)
+
+```bash
+$ git clone <repo-url> <different-local-directory-name>
+```
+
 ### Local Development
 
 ```bash
@@ -2054,7 +2069,7 @@ $ git commit -m "Your note"
 $ git push https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
-If we make a change, we can push additional commits to the forked repo pull request branch, even if the local branch name is different than the remote branch name (pull request author needs to have given permission, and local branch name and remote branch name need to match)
+If we make a change, we can push additional commits to the forked repo pull request branch, even if the local branch name is different than the remote branch name. In the pull request instructions for a fork, GitHub often adds pull request author username to the beginning of the suggested local branch name, causing the local branch name and remote branch name to be different (perhaps to avoid path conflicts?). (pull request author needs to have given permission)
 
 ```bash
 $ git add .
@@ -2194,8 +2209,8 @@ $ git push origin master
 Pushing and pulling via URL (handy when dealing with a branch outside our origin, for instance, when working with pull request from a fork)
 
 ```bash
-git pull https://github.com/<user-name>/<repo-name> <branch-name>
-git push https://github.com/<user-name>/<repo-name> <branch-name>
+$ git pull https://github.com/<user-name>/<repo-name> <branch-name>
+$ git push https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
@@ -2244,7 +2259,7 @@ $ git remote add <remote-name> <remote-url>
 Add upstream remote repository (the name upstream is very commonly used in this situation)
 
 ```bash
-$ git remote add upstream https://github.com/upstream-username/original-repository.git
+$ git remote add upstream https://github.com/upstream-username/original-repository
 ```
 
 Verify new upstream remote (cannot push to upstream unless you have write permission)
