@@ -9,8 +9,8 @@
 - [Slides and Script](#slides-and-script)
 - [Useful Resources](#useful-resources)
     - [Links](#links)    
-    - [Bash Commands](#bash-commands)
-    - [Cloning](#cloning)    
+    - [Bash](#bash)
+    - [Avoiding Cloning Conflicts](#avoiding-cloning-conflicts)    
     - [Local Development](#local-development)
     - [Review Shared Repo Pull Request](#review-shared-repo-pull-request)
     - [Review Forked Repo Pull Request](#review-forked-repo-pull-request)
@@ -1974,7 +1974,7 @@ Recover a Branch
 
 <hr>
 
-### Bash Commands
+### Bash
 
 Go to the home directory
 
@@ -2004,7 +2004,7 @@ $ ls
 
 <hr>
 
-### Cloning
+### Avoiding Cloning Conflicts 
 
 Normal cloning
 
