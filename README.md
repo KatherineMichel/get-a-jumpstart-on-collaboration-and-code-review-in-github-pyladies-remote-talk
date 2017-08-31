@@ -32,7 +32,7 @@
 
 ## About
 
-Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.com/KatiMichel), [GitHub](https://github.com/KatherineMichel)) gave for [PyLadies Remote](https://2017.djangocon.us).
+Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.com/KatiMichel), [GitHub](https://github.com/KatherineMichel)) gave for [PyLadies Remote](https://2017.djangocon.us), Saturday, August 26, 2017 at 11:00 a.m. CST.
 
 * [Original slide deck](https://docs.google.com/presentation/d/1PEgxQBzGdAzcc1X3qE5aUndcdi3wefbG02zpT5SEJ2Q/edit?usp=sharing)
 * [Video recording](https://www.youtube.com/watch?v=eBTLPYbVvQY)
@@ -51,6 +51,7 @@ Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.
 
 ## Important Webcast Links
 
+* [Eventbrite Link (expired)](https://www.eventbrite.com/e/get-a-jumpstart-on-collaboration-and-code-review-in-github-with-kati-michel-tickets-36863266021)
 * [PyLadies Remote tlk.io Chat Forum](https://tlk.io/pyladiesremote)
 * [DjangoCon GitHub Repo](https://github.com/djangocon)
 * [DjangoCon U.S. 2017 Website Repo GitHub](https://github.com/djangocon/2017.djangocon.us)
