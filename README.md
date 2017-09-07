@@ -35,7 +35,7 @@
 Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.com/KatiMichel), [GitHub](https://github.com/KatherineMichel)) gave for [PyLadies Remote](https://2017.djangocon.us), Saturday, August 26, 2017 at 11:00 a.m. CST.
 
 * [Original slide deck](https://docs.google.com/presentation/d/1PEgxQBzGdAzcc1X3qE5aUndcdi3wefbG02zpT5SEJ2Q/edit?usp=sharing)
-* [Video recording](https://www.youtube.com/watch?v=eBTLPYbVvQY)
+* [Video recording](https://youtu.be/eBTLPYbVvQY)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
