@@ -1,4 +1,4 @@
-# Get a Jumpstart on Collaboration and Code Review in GitHub- PyLadies Remote
+# Get a Jumpstart on Collaboration and Code Review in GitHub- PyLadies Remote Talk
 
 ## Table of Contents
 
